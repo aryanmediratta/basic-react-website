@@ -1,7 +1,6 @@
 import React from 'react';
 import GoogleMapReact from 'google-map-react';
-
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+import MyGreatPlace from './my_great_place';
 
 class Map extends React.Component {
   static defaultProps = {
@@ -15,11 +14,8 @@ class Map extends React.Component {
         defaultCenter={this.props.center}
         defaultZoom={this.props.zoom}
       >
-      <AnyReactComponent 
-          lat={3.13} 
-          lng={101.68} 
-          text={'lol'} 
-        />
+      <MyGreatPlace lat={3.13} lng={101.68} text={'A'} />
+      <MyGreatPlace lat={3.18} lng={101.88} text={'B'} />
       </GoogleMapReact>
     );
   }
