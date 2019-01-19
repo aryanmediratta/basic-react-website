@@ -1,7 +1,7 @@
 {
   "main.css": "/basic-react-website/static/css/main.6bc9ccf6.chunk.css",
-  "main.js": "/basic-react-website/static/js/main.c14b8fbe.chunk.js",
-  "main.js.map": "/basic-react-website/static/js/main.c14b8fbe.chunk.js.map",
+  "main.js": "/basic-react-website/static/js/main.7ff48380.chunk.js",
+  "main.js.map": "/basic-react-website/static/js/main.7ff48380.chunk.js.map",
   "static/css/1.23cdd449.chunk.css": "/basic-react-website/static/css/1.23cdd449.chunk.css",
   "static/js/1.cd4deccd.chunk.js": "/basic-react-website/static/js/1.cd4deccd.chunk.js",
   "static/js/1.cd4deccd.chunk.js.map": "/basic-react-website/static/js/1.cd4deccd.chunk.js.map",
@@ -22,6 +22,6 @@
   "static/css/main.6bc9ccf6.chunk.css.map": "/basic-react-website/static/css/main.6bc9ccf6.chunk.css.map",
   "static/css/1.23cdd449.chunk.css.map": "/basic-react-website/static/css/1.23cdd449.chunk.css.map",
   "index.html": "/basic-react-website/index.html",
-  "precache-manifest.ffd566c026167d4c51cbe8cd39248cb6.js": "/basic-react-website/precache-manifest.ffd566c026167d4c51cbe8cd39248cb6.js",
+  "precache-manifest.6d25c4dcff5b47eff411390860d173d4.js": "/basic-react-website/precache-manifest.6d25c4dcff5b47eff411390860d173d4.js",
   "service-worker.js": "/basic-react-website/service-worker.js"
 }
