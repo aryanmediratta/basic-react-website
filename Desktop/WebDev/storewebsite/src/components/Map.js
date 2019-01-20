@@ -14,8 +14,8 @@ class Map extends React.Component {
         defaultCenter={this.props.center}
         defaultZoom={this.props.zoom}
       >
+      <MyGreatPlace lat={3.17} lng={101.68} text={'B'} />
       <MyGreatPlace lat={3.13} lng={101.68} text={'A'} />
-      <MyGreatPlace lat={3.18} lng={101.88} text={'B'} />
       </GoogleMapReact>
     );
   }

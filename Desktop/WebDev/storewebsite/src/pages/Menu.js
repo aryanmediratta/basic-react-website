@@ -14,6 +14,11 @@ const stylo = {
 	height : '50%',
 }
 
+const h2s = {
+	textAlign : 'center',
+	fontFamily : 'Times',
+}
+
 class Menu extends Component {
 
 	componentDidMount(){
@@ -31,7 +36,7 @@ class Menu extends Component {
 			<div>
 			<Header/>
 			<div class = 'container'>
-			<h2> This is the menu </h2>
+			<h2 style = {h2s}> Our Delicate Menu </h2>
 			<img src ={menu2} style ={stylo} class='materialboxed'/>
 			<br />
 			<br />

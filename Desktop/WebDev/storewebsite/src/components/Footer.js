@@ -1,27 +1,27 @@
 import React, {Component, Fragment} from 'react';
 
+import { SocialIcon } from 'react-social-icons';
+
+const h2s = {
+  height: 35, 
+  width: 35,
+  marginRight:'auto', 
+  marginLeft:'auto'
+}
+
 class Footer extends Component {
 
   render(){
 
     return(
 
-    <footer class="page-footer">
+    <footer class="page-footer white">
           <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text"></h5>
-                <p class="grey-text text-lighten-4">Contact us on social media</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text"></h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                  <li> <SocialIcon url="https://www.facebook.com/Delhi-Grill-304409520408653/?modal=admin_todo_tour" rel="noopener noreferrer" target="_blank" network="facebook" style= {h2s} /> </li>
+                  <li> <SocialIcon url="https://www.facebook.com/Delhi-Grill-304409520408653/?modal=admin_todo_tour" rel="noopener noreferrer" target="_blank" network="twitter" style = {h2s}/> </li>
+                  <li> <SocialIcon url="https://www.facebook.com/Delhi-Grill-304409520408653/?modal=admin_todo_tour" rel="noopener noreferrer" target="_blank" network="instagram" style= {h2s}/> </li>
                 </ul>
-              </div>
-            </div>
           </div>
         </footer>
         )

@@ -29,9 +29,9 @@ const ps = {
 class Home extends Component {
 
 	componentDidMount(){
-		document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.slider');
-    var instances = M.Slider.init(elems, true, 800);
+  	document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.slider');
+  var instances = M.Slider.init(elems, {'indicators' : true, 'interval': 1500});
   });
 
 		document.addEventListener('DOMContentLoaded', function() {
@@ -58,7 +58,7 @@ class Home extends Component {
 
 				<div className = "container">
 				
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p style = {h2s}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 				</div>
 
@@ -68,31 +68,15 @@ class Home extends Component {
     <ul class="slides">
       <li>
         <img src={golgappa}/> 
-        <div class="caption left-align">
-          <h3 class="light grey-text text-lighten-3">Some Caption!</h3>
-          <h5 class="light grey-text text-lighten-3">Some small text.</h5>
-        </div>
       </li>
       <li>
         <img src={kebab}/> 
-        <div class="caption left-align">
-          <h3 class="light grey-text text-lighten-3">Some Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Some small text.</h5>
-        </div>
       </li>
       <li>
         <img src={rice}/> 
-        <div class="caption right-align">
-          <h3 class="light grey-text text-lighten-3">Some Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Some small text.</h5>
-        </div>
       </li>
       <li>
         <img src={paneer}/> 
-        <div class="caption center-align">
-          <h3 class="light grey-text text-lighten-3">Some Caption!</h3>
-          <h5 class="light grey-text text-lighten-3">Some small text.</h5>
-        </div>
       </li>
     </ul>
   </div>

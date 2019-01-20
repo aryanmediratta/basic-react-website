@@ -4,7 +4,14 @@ import Header from '../components/Header'
 
 import Footer from '../components/Footer'
 
-import Map from '../components/Map'
+const h2s = {
+	textAlign : 'center',
+	fontFamily : 'Times',
+}
+
+const h1s = {
+	fontFamily : 'Times',
+}
 
 class About extends Component {
 
@@ -12,12 +19,8 @@ class About extends Component {
 		return(
 			<div>
 			<Header/>
-			<h2> This is the About page </h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<div style={{width: '50%', height: '400px', marginLeft:'auto', marginRight:'auto'}}>
-    <Map/>
-  </div>
-
+			<h2 style = {h2s}> About Us </h2>
+			<p style = {h1s}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   			<Footer />
   			</div>
 			)
