@@ -55,6 +55,11 @@ class Home extends Component {
 				<Header/>
 				<h2 style ={h2s}> This is the homepage </h2>
 
+        <div class="row">
+      <div class="col s6">6-columns (one-half)</div>
+      <div class="col s6">6-columns (one-half)</div>
+    </div>
+
 				<div class="parallax-container">
       <div class="parallax"><img src={allmenu}/></div>
     </div>
@@ -70,7 +75,7 @@ class Home extends Component {
 				 <div class="slider">
     <ul class="slides">
       <li>
-        <img src={golgappa}/> 
+        <img src={golgappa} style = {{height:'100%'}}/> 
       </li>
       <li>
         <img src={kebab}/> 
@@ -92,7 +97,6 @@ class Home extends Component {
       </li>
     </ul>
   </div>
-
   			<Footer />
 			</div>	
 			);
