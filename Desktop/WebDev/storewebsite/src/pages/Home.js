@@ -24,6 +24,9 @@ const h2s = {
 
 const ps = {
 	color : 'black',
+  textAlign : 'center',
+  fontFamily : 'Times',
+  fontSize : '20px'
 }
 
 class Home extends Component {
@@ -58,7 +61,7 @@ class Home extends Component {
 
 				<div className = "container">
 				
-				<p style = {h2s}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p style = {ps}>The traditional food of India has been widely appreciated for its fabulous use of herbs and spices. Indian cuisine is known for its large assortment of dishes. The cooking style varies from region to region and is largely divided into North Indian cuisine & South Indian  . At Delhi Grill we serve fresh, tasty and spicy Indian food prepared using fresh herbs, garam masalas which are roasted and made in-house combined with rich flavors from ginger and garlic. Mix of South Indian, North Indian & West Indian cuisine.</p>
 
 				</div>
 
@@ -77,6 +80,15 @@ class Home extends Component {
       </li>
       <li>
         <img src={paneer}/> 
+      </li>
+      <li>
+        <img src={dish}/> 
+      </li>
+      <li>
+        <img src={kulfi}/> 
+      </li>
+      <li>
+        <img src={chinese}/> 
       </li>
     </ul>
   </div>
