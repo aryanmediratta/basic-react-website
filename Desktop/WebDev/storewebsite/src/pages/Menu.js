@@ -498,22 +498,22 @@ class Menu extends Component {
 					<tr>
 						<td>83</td>
 						<td>MUSHROOM TIKKA</td>
-						<td>16.989999999999998</td>
+						<td>16.99</td>
 					</tr>
 					<tr>
 						<td>84</td>
 						<td>PANEER TIKKA </td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>85</td>
 						<td>PANEER GARLIC TIKKA </td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>86</td>
 						<td>PANEER METHI TIKKA</td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>87</td>
@@ -523,37 +523,37 @@ class Menu extends Component {
 					<tr>
 						<td>88</td>
 						<td>CHICKEN TIKKA</td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>89</td>
 						<td>CHICKEN MALAI TIKKA</td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>90</td>
 						<td>CHICKEN AFGANI TIKKA</td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>91</td>
 						<td>CHICKEN ACHARI TIKKA</td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>92</td>
 						<td>CHICKEN GREEN CHILLY KABAB </td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>93</td>
 						<td>CHICKEN SEEKH KABAB </td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>94</td>
 						<td>DELHI TANGDI KABAB</td>
-						<td>18.989999999999998</td>
+						<td>18.99</td>
 					</tr>
 					<tr>
 						<td>95</td>
@@ -626,8 +626,6 @@ class Menu extends Component {
 						<td>CUTLET-2PC</td>
 						<td>11.99</td>
 					</tr>
-					</table>
-										<table class = "centred">
 					<tr>
 						<td></td>
 						<td>PANEER MAHIPALPUR(ALA-CARTE)</td>
@@ -636,42 +634,42 @@ class Menu extends Component {
 					<tr>
 						<td>119</td>
 						<td>MALAI KOFTA</td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>120</td>
 						<td>PANEER TIKKA LABABDAR</td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>121</td>
 						<td>KADAI PANEER</td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>122</td>
 						<td>PANEER BUTTER MASALA</td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>123</td>
 						<td>SHAHI PANEER</td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>124</td>
 						<td>PALAK PANEER</td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>125</td>
 						<td>PANEER 65</td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>126</td>
 						<td>MATAR PANEER</td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					</table>
 					</div>
@@ -684,7 +682,8 @@ class Menu extends Component {
 
 
 
-
+			<div class="row">
+				<div class="col s6">
 
 					<table class = "centred">
 					<tr>
@@ -763,6 +762,7 @@ class Menu extends Component {
 						<td>11.99</td>
 					</tr>
 					</table>
+					</div>
 
 
 
@@ -774,11 +774,10 @@ class Menu extends Component {
 
 
 
+				<div class="col s6">
 
-
-
-
-
+					<table class = "centred">
+					<tr>
 						<td></td>
 						<td>SABZIYAN AZADPUR SABZI MANDI SE</td>
 						<td></td>
@@ -849,16 +848,19 @@ class Menu extends Component {
 						<td>15.99</td>
 					</tr>
 
+					</table>
+					</div>
+					</div>
 
 
 
 
 
 
+			<div class="row">
+				<div class="col s6">
 
-
-
-
+					<table class = "centred">
 
 					<tr>
 						<td></td>
@@ -890,7 +892,6 @@ class Menu extends Component {
 						<td>PINDI CHANA </td>
 						<td>14.99</td>
 					</tr>
-
 
 
 
@@ -956,49 +957,51 @@ class Menu extends Component {
 					<tr>
 						<td>150</td>
 						<td>BUTTER CHICKEN </td>
-						<td>18.989999999999998</td>
+						<td>18.99</td>
 					</tr>
 					<tr>
 						<td>151</td>
 						<td>CHICKEN TIKKA MASALA </td>
-						<td>18.989999999999998</td>
+						<td>18.99</td>
 					</tr>
 					<tr>
 						<td>152</td>
 						<td>MASALA CHICKEN </td>
-						<td>18.989999999999998</td>
+						<td>18.99</td>
 					</tr>
 					<tr>
 						<td>153</td>
 						<td>CHICKEN PALAK </td>
-						<td>18.989999999999998</td>
+						<td>18.99</td>
 					</tr>
 					<tr>
 						<td>154</td>
 						<td>CHICKEN KADAI </td>
-						<td>18.989999999999998</td>
+						<td>18.99</td>
 					</tr>
 					<tr>
 						<td>155</td>
 						<td>BLACK PEPPER CHICKEN </td>
-						<td>18.989999999999998</td>
+						<td>18.99</td>
 					</tr>
 					<tr>
 						<td>156</td>
 						<td>MALAI CHICKEN</td>
-						<td>18.989999999999998</td>
+						<td>18.99</td>
 					</tr>
 					<tr>
 						<td>157</td>
 						<td>CHICKEN RAHRA</td>
-						<td>18.989999999999998</td>
+						<td>18.99</td>
 					</tr>
 					<tr>
 						<td>158</td>
 						<td>CHICHEN CHETINAD</td>
-						<td>18.989999999999998</td>
+						<td>18.99</td>
 					</tr>
 
+					</table>
+					</div>
 
 
 
@@ -1006,10 +1009,9 @@ class Menu extends Component {
 
 
 
+				<div class="col s6">
 
-
-
-
+					<table class ="centred">
 					<tr>
 
 						<td></td>
@@ -1055,7 +1057,7 @@ class Menu extends Component {
 					<tr>
 						<td>163</td>
 						<td>MUTTON BIRYANI (SERVED WITH YOGURT)</td>
-						<td>17.989999999999998</td>
+						<td>17.99</td>
 					</tr>
 					<tr>
 						<td>164</td>
@@ -1136,6 +1138,9 @@ class Menu extends Component {
 						<td>4.99</td>
 					</tr>
 
+					</table>
+					</div>
+					</div>
 
 
 
@@ -1143,10 +1148,10 @@ class Menu extends Component {
 
 
 
+					<div class="row">
+				<div class="col s6">
 
-
-
-
+					<table class = "centred">
 
 
 					<tr>
@@ -1260,6 +1265,13 @@ class Menu extends Component {
 						<td>APPLE ZAPPLE/GREEN APPLE</td>
 						<td>6.99</td>
 					</tr>
+					</table>
+					</div>
+
+
+				<div class="col s6">
+				<table class = "centred">
+
 					<tr>
 						<td></td>
 						<td>SOFT DRINKS</td>
@@ -1347,6 +1359,9 @@ class Menu extends Component {
 					</tr>
 
 
+					</table>
+					</div>
+					</div>
 
 
 
@@ -1355,8 +1370,7 @@ class Menu extends Component {
 
 
 
-
-
+					<table class = "centred">
 
 
 					<tr>
@@ -1372,7 +1386,7 @@ class Menu extends Component {
 					<tr>
 						<td>208</td>
 						<td>KAJU BURFI(KG)</td>
-						<td>79.989999999999995</td>
+						<td>79.99</td>
 					</tr>
 					<tr>
 						<td>209</td>
