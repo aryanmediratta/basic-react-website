@@ -16,12 +16,16 @@ class Footer extends Component {
     return(
 
     <footer class="page-footer white">
-          <div class="container">
+      <div class="container">
+          <div class="row">
+            <div class="col l4 offset-l2 s12">
                 <ul>
                   <li> <SocialIcon url="https://www.facebook.com/Delhi-Grill-304409520408653/?modal=admin_todo_tour" rel="noopener noreferrer" target="_blank" network="facebook" style= {h2s} /> </li>
                   <li> <SocialIcon url="https://www.facebook.com/Delhi-Grill-304409520408653/?modal=admin_todo_tour" rel="noopener noreferrer" target="_blank" network="twitter" style = {h2s}/> </li>
                   <li> <SocialIcon url="https://www.facebook.com/Delhi-Grill-304409520408653/?modal=admin_todo_tour" rel="noopener noreferrer" target="_blank" network="instagram" style= {h2s}/> </li>
                 </ul>
+                </div>
+             </div>   
           </div>
         </footer>
         )

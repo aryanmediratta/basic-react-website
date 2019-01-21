@@ -49,7 +49,7 @@ class Menu extends Component {
 			</div>
 				<div class="row">
 				<div class="col s6">
-				<table class="centred">
+				<table class="highlight">
 					<tr>
 						<td></td>
 						<td style = {ths}>KAROL BAGH KI CHAT-STARTER</td>
@@ -1157,7 +1157,7 @@ class Menu extends Component {
 
 
 					<div class="row">
-				<div class="col s8">
+				<div class="col s12">
 
 					<table class = "centred">
 
@@ -1275,7 +1275,7 @@ class Menu extends Component {
 					</table>
 					</div>
 
-				<div class="col s8">
+				<div class="col s12">
 
 					<table class = "centred">
 					<tr>
@@ -1330,7 +1330,7 @@ class Menu extends Component {
 					</tr>
 					<tr>
 						<td></td>
-						<td>HOT DRINKS</td>
+						<td style = {ths}>HOT DRINKS</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -1368,14 +1368,6 @@ class Menu extends Component {
 					</table>
 					</div>
 					</div>
-
-
-
-
-
-
-					<div class="row">
-				<div class="col s8">
 
 					<table class = "centred">
 
@@ -1476,12 +1468,6 @@ class Menu extends Component {
 						<td>4.99</td>
 					</tr>
 				</table>
-				</div>
-				</div>
-					
-
-						<div class="row">
-				<div class="col s8">
 						<table >
 							<tr>
 								<td></td>
@@ -1560,7 +1546,7 @@ class Menu extends Component {
 							</tr>
 							<tr>
 								<td></td>
-								<td>PARATHA SET</td>
+								<td style = {ths}>PARATHA SET</td>
 								<td></td>
 							</tr>
 							<tr>
@@ -1609,8 +1595,6 @@ class Menu extends Component {
 								<td>14.9</td>
 							</tr>
 						</table>
-						</div>
-						</div>
 			<Footer/>
 			</div>
 			)

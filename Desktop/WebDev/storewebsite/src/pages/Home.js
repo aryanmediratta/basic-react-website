@@ -70,7 +70,7 @@ class Home extends Component {
 				 <div class="slider">
     <ul class="slides">
       <li>
-        <img src={golgappa} style = {{height:'100%'}}/> 
+        <img src={golgappa}/> 
       </li>
       <li>
         <img src={kebab}/> 
