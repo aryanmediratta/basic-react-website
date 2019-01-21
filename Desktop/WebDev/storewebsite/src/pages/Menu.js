@@ -254,7 +254,15 @@ class Menu extends Component {
 					</tr>
 					</table>
 					</div>
-					// nwiefnlwenflkwenflkwenflkwenflkwenlfkwenlkfnwelkfnwekflwke
+
+
+
+
+
+
+
+
+
 					<div class="col s6">
 					<table class = "centred">
 					<tr>
@@ -460,7 +468,15 @@ class Menu extends Component {
 					</table>
 					</div>
 					</div>
-					// ghukghoighkjfuytdytkcytfukgfilghpiogiuguofgoufi97fiyufiycktxktfxytkx
+
+
+
+
+
+
+
+
+
 					<div class="row">
 				<div class="col s6">
 					<table class ="centred">
@@ -553,8 +569,16 @@ class Menu extends Component {
 					</table>
 					</div>
 
-					//jkiugh0jfnjio34jr0i934hfiowehnciowendpiqwjfpiowehnfoiwenlkqwdnfowenfoq
-<div class="col s6">
+
+
+
+
+
+
+
+
+
+					<div class="col s6">
 					<table class = "centred">
 				
 					<tr>
@@ -603,9 +627,65 @@ class Menu extends Component {
 						<td>11.99</td>
 					</tr>
 					</table>
+										<table class = "centred">
+					<tr>
+						<td></td>
+						<td>PANEER MAHIPALPUR(ALA-CARTE)</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>119</td>
+						<td>MALAI KOFTA</td>
+						<td>17.989999999999998</td>
+					</tr>
+					<tr>
+						<td>120</td>
+						<td>PANEER TIKKA LABABDAR</td>
+						<td>17.989999999999998</td>
+					</tr>
+					<tr>
+						<td>121</td>
+						<td>KADAI PANEER</td>
+						<td>17.989999999999998</td>
+					</tr>
+					<tr>
+						<td>122</td>
+						<td>PANEER BUTTER MASALA</td>
+						<td>17.989999999999998</td>
+					</tr>
+					<tr>
+						<td>123</td>
+						<td>SHAHI PANEER</td>
+						<td>17.989999999999998</td>
+					</tr>
+					<tr>
+						<td>124</td>
+						<td>PALAK PANEER</td>
+						<td>17.989999999999998</td>
+					</tr>
+					<tr>
+						<td>125</td>
+						<td>PANEER 65</td>
+						<td>17.989999999999998</td>
+					</tr>
+					<tr>
+						<td>126</td>
+						<td>MATAR PANEER</td>
+						<td>17.989999999999998</td>
+					</tr>
+					</table>
 					</div>
 					</div>
-					//ewjkfn23ioehrio2hr90234hf09o432h0f9i23hroi23hfio23hgfiu32hroi234hgrio23hiu23hgriu32
+
+
+
+
+
+
+
+
+
+
 					<table class = "centred">
 					<tr>
 						<td></td>
@@ -682,56 +762,23 @@ class Menu extends Component {
 						<td>EGG FRIED RICE</td>
 						<td>11.99</td>
 					</tr>
-					<tr>
+					</table>
 
-					//emnfilwenioufhweiofdhoiewjhdoiewjfoiewjfewlifnlewkfhiowehfiewhnfliewnbfio
 
-						<td></td>
-						<td>PANEER MAHIPALPUR(ALA-CARTE)</td>
-						<td></td>
-					</tr>
-					<tr>
-						<td>119</td>
-						<td>MALAI KOFTA</td>
-						<td>17.989999999999998</td>
-					</tr>
-					<tr>
-						<td>120</td>
-						<td>PANEER TIKKA LABABDAR</td>
-						<td>17.989999999999998</td>
-					</tr>
-					<tr>
-						<td>121</td>
-						<td>KADAI PANEER</td>
-						<td>17.989999999999998</td>
-					</tr>
-					<tr>
-						<td>122</td>
-						<td>PANEER BUTTER MASALA</td>
-						<td>17.989999999999998</td>
-					</tr>
-					<tr>
-						<td>123</td>
-						<td>SHAHI PANEER</td>
-						<td>17.989999999999998</td>
-					</tr>
-					<tr>
-						<td>124</td>
-						<td>PALAK PANEER</td>
-						<td>17.989999999999998</td>
-					</tr>
-					<tr>
-						<td>125</td>
-						<td>PANEER 65</td>
-						<td>17.989999999999998</td>
-					</tr>
-					<tr>
-						<td>126</td>
-						<td>MATAR PANEER</td>
-						<td>17.989999999999998</td>
-					</tr>
-					<tr>
-					//jkbklbiolopiejwnoifnweoifnweoifnoweinfoiwenfoiwenfoiwenflwenbofnwelkfnweofno2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 						<td></td>
 						<td>SABZIYAN AZADPUR SABZI MANDI SE</td>
 						<td></td>
@@ -801,8 +848,19 @@ class Menu extends Component {
 						<td>CHILLY ALU</td>
 						<td>15.99</td>
 					</tr>
+
+
+
+
+
+
+
+
+
+
+
+
 					<tr>
-					//ejdiqowjpoqjdpoqwjdpoiqwjdioqwnodiwendlkjwebnfkjwebnkjwebnf
 						<td></td>
 						<td>DAL KHARI BAWLI</td>
 						<td></td>
@@ -832,8 +890,18 @@ class Menu extends Component {
 						<td>PINDI CHANA </td>
 						<td>14.99</td>
 					</tr>
+
+
+
+
+
+
+
+
+
+
+
 					<tr>
-					//ndklqwndlkqwndoqwmpdoqnwdlkqwnflwenpodwejmfl;wenmfop;nwepofwenf
 						<td></td>
 						<td>MUTTON JAMA MASJID</td>
 						<td></td>
@@ -863,10 +931,24 @@ class Menu extends Component {
 						<td>PALAK GOSHT</td>
 						<td>21.99</td>
 					</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 					<tr>
-
-					//efnewklfnweofnpowemfpowqjdpoqwjpofnwepofmnpweonfmpowenfpowenfpowenfponwepofnpweofnpweoinf
-
 						<td></td>
 						<td>CHICKEN CHANDNI CHOWK</td>
 						<td></td>
@@ -916,9 +998,20 @@ class Menu extends Component {
 						<td>CHICHEN CHETINAD</td>
 						<td>18.989999999999998</td>
 					</tr>
+
+
+
+
+
+
+
+
+
+
+
+
 					<tr>
 
-					//nwjkfnpwenwenfkernglkernlkjgnerljgnerlkgnerlkgnlkjer gjklernglkernoignoig
 						<td></td>
 						<td>EGG (ALA-CARTE)</td>
 						<td></td>
@@ -935,7 +1028,16 @@ class Menu extends Component {
 					</tr>
 					<tr>
 
-					//nklwenflnfi34bnigbn34iooi34noiewnfoiewnfoiwenfoiwenfoiwenfiowenfionwe
+
+
+
+
+
+
+
+
+
+
 						<td></td>
 						<td>BIRYANI, RICE & PULAV</td>
 						<td></td>
@@ -970,8 +1072,20 @@ class Menu extends Component {
 						<td>PEAS PULAV</td>
 						<td>8.99</td>
 					</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
 					<tr>
-					//fklwenflwenipowejiofjopfjepwonfpoewnfpoewnfpoiwenfpowenfjpweiojfpowejfwe
 						<td></td>
 						<td>RAITA, SALAD & PAPAD</td>
 						<td></td>
@@ -1021,9 +1135,22 @@ class Menu extends Component {
 						<td>MASALA PAPAD</td>
 						<td>4.99</td>
 					</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 					<tr>
 
-					//fewniofnoiewfpowejfpowejpodinweqoidnweoidnewoifnoweindw
 						<td></td>
 						<td>DRINKS- LASSI</td>
 						<td></td>
@@ -1218,9 +1345,21 @@ class Menu extends Component {
 						<td>GREEN TEA</td>
 						<td>3.99</td>
 					</tr>
-					<tr>
 
-					//nclkewmnlfkmewofmepwomfewj fklewnflewmfopewmpofjmwepofjkpoewjfpoewjfopwejfpwo
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<tr>
 						<td></td>
 						<td>MEETHA CONNAUGHT PLACE KA</td>
 						<td></td>
