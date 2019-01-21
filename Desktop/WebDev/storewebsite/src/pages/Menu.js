@@ -18,7 +18,15 @@ const stylo = {
 const h2s = {
 	textAlign : 'center',
 	fontFamily : 'Times',
+	fontWeight : 'bold'
 }
+
+const ths = {
+	fontFamily : 'Times',
+	fontWeight : 'bold',
+	fontSize : '18px'
+}
+
 
 class Menu extends Component {
 
@@ -44,7 +52,7 @@ class Menu extends Component {
 				<table class="centred">
 					<tr>
 						<td></td>
-						<td>KAROL BAGH KI CHAT-STARTER</td>
+						<td style = {ths}>KAROL BAGH KI CHAT-STARTER</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -267,7 +275,7 @@ class Menu extends Component {
 					<table class = "centred">
 					<tr>
 						<td></td>
-						<td>GALI PARATHE WALI KE PARATHE NAN, ROTI & WRAP</td>
+						<td style = {ths}>GALI PARATHE WALI KE PARATHE NAN, ROTI & WRAP</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -482,7 +490,7 @@ class Menu extends Component {
 					<table class ="centred">
 					<tr>
 						<td></td>
-						<td>DELHI GRILL TANDOORI SPECIAL</td>
+						<td style = {ths}>DELHI GRILL TANDOORI SPECIAL</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -583,7 +591,7 @@ class Menu extends Component {
 				
 					<tr>
 						<td></td>
-						<td>SNACKS SOUTH DELHI</td>
+						<td style = {ths}>SNACKS SOUTH DELHI</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -688,7 +696,7 @@ class Menu extends Component {
 					<table class = "centred">
 					<tr>
 						<td></td>
-						<td>DESI CHINESE DELHI SE(ALA -CARTE)</td>
+						<td style = {ths}>DESI CHINESE DELHI SE(ALA -CARTE)</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -779,7 +787,7 @@ class Menu extends Component {
 					<table class = "centred">
 					<tr>
 						<td></td>
-						<td>SABZIYAN AZADPUR SABZI MANDI SE</td>
+						<td style = {ths}>SABZIYAN AZADPUR SABZI MANDI SE</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -864,7 +872,7 @@ class Menu extends Component {
 
 					<tr>
 						<td></td>
-						<td>DAL KHARI BAWLI</td>
+						<td style = {ths}>DAL KHARI BAWLI</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -904,7 +912,7 @@ class Menu extends Component {
 
 					<tr>
 						<td></td>
-						<td>MUTTON JAMA MASJID</td>
+						<td style = {ths}>MUTTON JAMA MASJID</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -951,7 +959,7 @@ class Menu extends Component {
 
 					<tr>
 						<td></td>
-						<td>CHICKEN CHANDNI CHOWK</td>
+						<td style = {ths}>CHICKEN CHANDNI CHOWK</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -1015,7 +1023,7 @@ class Menu extends Component {
 					<tr>
 
 						<td></td>
-						<td>EGG (ALA-CARTE)</td>
+						<td style = {ths}>EGG (ALA-CARTE)</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -1041,7 +1049,7 @@ class Menu extends Component {
 
 
 						<td></td>
-						<td>BIRYANI, RICE & PULAV</td>
+						<td style = {ths}>BIRYANI, RICE & PULAV</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -1089,7 +1097,7 @@ class Menu extends Component {
 
 					<tr>
 						<td></td>
-						<td>RAITA, SALAD & PAPAD</td>
+						<td style = {ths}>RAITA, SALAD & PAPAD</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -1153,11 +1161,10 @@ class Menu extends Component {
 
 					<table class = "centred">
 
-
 					<tr>
 
 						<td></td>
-						<td>DRINKS- LASSI</td>
+						<td style = {ths}>DRINKS- LASSI</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -1177,7 +1184,7 @@ class Menu extends Component {
 					</tr>
 					<tr>
 						<td></td>
-						<td>MILKSHAKES</td>
+						<td style = {ths}>MILKSHAKES</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -1207,7 +1214,7 @@ class Menu extends Component {
 					</tr>
 					<tr>
 						<td></td>
-						<td>MOCKTAILS</td>
+						<td style = {ths}>MOCKTAILS</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -1227,7 +1234,7 @@ class Menu extends Component {
 					</tr>
 					<tr>
 						<td></td>
-						<td>FRESH JUICE</td>
+						<td style = {ths}>FRESH JUICE</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -1268,13 +1275,12 @@ class Menu extends Component {
 					</table>
 					</div>
 
-
 				<div class="col s6">
-				<table class = "centred">
 
+					<table class = "centred">
 					<tr>
 						<td></td>
-						<td>SOFT DRINKS</td>
+						<td style = {ths}>SOFT DRINKS</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -1333,7 +1339,7 @@ class Menu extends Component {
 						<td>2.99</td>
 					</tr>
 					<tr>
-						<td>102</td>
+						<td>202</td>
 						<td>ADRAK CHAI</td>
 						<td>2.99</td>
 					</tr>
@@ -1375,7 +1381,7 @@ class Menu extends Component {
 
 					<tr>
 						<td></td>
-						<td>MEETHA CONNAUGHT PLACE KA</td>
+						<td style = {ths}>MEETHA CONNAUGHT PLACE KA</td>
 						<td></td>
 					</tr>
 					<tr>
@@ -1469,13 +1475,11 @@ class Menu extends Component {
 						<td>4.99</td>
 					</tr>
 				</table>
-					<b>
-						<u>Sheet Name</u> :- SET MEAL
-					</b>
+					
 						<table >
 							<tr>
 								<td></td>
-								<td>SET MENU THALI</td>
+								<td style = {ths}>SET MENU THALI</td>
 								<td></td>
 							</tr>
 							<tr>
