@@ -34,7 +34,7 @@ class Home extends Component {
 	componentDidMount(){
   	document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.slider');
-  var instances = M.Slider.init(elems, {'indicators' : true, 'interval': 1500});
+  var instances = M.Slider.init(elems, {'indicators' : true, 'interval': 1000, 'height':400});
   });
 
 		document.addEventListener('DOMContentLoaded', function() {
@@ -56,7 +56,7 @@ class Home extends Component {
 				<h2 style ={h2s}> This is the homepage </h2>
 
 				<div class="parallax-container">
-      <div class="parallax"><img src={allmenu}/></div>
+      <div class="parallax"><img src={allmenu} alt = "menu"/></div>
     </div>
 
 				<div className = "container">
@@ -67,28 +67,28 @@ class Home extends Component {
 
 				<h2 style = {h2s}>Our Specialities </h2>
 
-				 <div class="slider">
+				 <div class=" slider">
     <ul class="slides">
       <li>
-        <img src={golgappa}/> 
+        <img src={golgappa} alt = "menu"/> 
       </li>
       <li>
-        <img src={kebab}/> 
+        <img src={kebab} alt = "menu"/> 
       </li>
       <li>
-        <img src={rice}/> 
+        <img src={rice} alt = "menu"/> 
       </li>
       <li>
-        <img src={paneer}/> 
+        <img src={paneer} alt = "menu"/> 
       </li>
       <li>
-        <img src={dish}/> 
+        <img src={dish} alt = "menu"/> 
       </li>
       <li>
-        <img src={kulfi}/> 
+        <img src={kulfi} alt = "menu"/> 
       </li>
       <li>
-        <img src={chinese}/> 
+        <img src={chinese} alt = "menu"/> 
       </li>
     </ul>
   </div>

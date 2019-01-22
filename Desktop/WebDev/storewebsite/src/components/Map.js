@@ -8,6 +8,8 @@ class Map extends React.Component {
     zoom: 11
   };
 
+//bootstrapURLKeys={{ key:  }}
+
   render() {
     return (
        <GoogleMapReact
