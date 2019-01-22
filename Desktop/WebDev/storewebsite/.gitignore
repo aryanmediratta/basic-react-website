@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-/components/map.js
+/src/components/map.js
 
 # testing
 /coverage
