@@ -24,7 +24,7 @@ const h2s = {
 const ths = {
 	fontFamily : 'Times',
 	fontWeight : 'bold',
-	fontSize : '15px'
+	fontSize : '16px'
 }
 
 
@@ -50,9 +50,9 @@ class Menu extends Component {
 
 
 
-
+				<div class = "container1">
 				<div class="row">
-				<div class="col s6">
+				<div class="col-sm-6 col-md-6 col-lg-6">
 				<table>
 					<tr>
 						<td></td>
@@ -271,7 +271,7 @@ class Menu extends Component {
 
 
 
-				<div class="col s6">
+				<div class="col-sm-6 col-md-6 col-lg-6">
 					<table>
 					<tr>
 						<td></td>
@@ -476,16 +476,15 @@ class Menu extends Component {
 					</table>
 					</div>
 					</div>
+					</div>
 
 
 
 
 
-
-
-
-					<div class="row">
-				<div class="col s6">
+				<div class = "container">
+				<div class="row">
+				<div class="col-sm-6">
 					<table class ="centred">
 					<tr>
 						<td></td>
@@ -585,7 +584,7 @@ class Menu extends Component {
 
 
 
-					<div class="col s6">
+					<div class="col-sm-6">
 					<table class = "centred">
 				
 					<tr>
@@ -681,17 +680,16 @@ class Menu extends Component {
 					</table>
 					</div>
 					</div>
+					</div>
 
 
 
 
 
 
-
-
-			<div class="row">
-				<div class="col s6">
-
+				<div class = "container">
+				<div class="row">
+				<div class="col-sm-6">
 					<table class = "centred">
 					<tr>
 						<td></td>
@@ -781,7 +779,7 @@ class Menu extends Component {
 
 
 
-				<div class="col s6">
+				<div class="col-sm-6">
 
 					<table class = "centred">
 					<tr>
@@ -858,15 +856,14 @@ class Menu extends Component {
 					</table>
 					</div>
 					</div>
+					</div>
 
 
 
 
-
-
-			<div class="row">
-				<div class="col s6">
-
+				<div class = "container">
+				<div class="row">
+				<div class="col-sm-6">
 					<table class = "centred">
 
 					<tr>
@@ -1016,7 +1013,7 @@ class Menu extends Component {
 
 
 
-				<div class="col s6">
+				<div class="col-sm-6">
 
 					<table class ="centred">
 					<tr>
@@ -1148,7 +1145,7 @@ class Menu extends Component {
 					</table>
 					</div>
 					</div>
-
+					</div>
 
 
 
