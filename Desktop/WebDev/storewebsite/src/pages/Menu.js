@@ -54,7 +54,7 @@ class Menu extends Component {
 				<div class="row">
 				<div class="col-sm-6 col-md-6 col-lg-6">
 				<div class="table-responsive">
-				<table class="table table-hover">
+				<table class="table">
 					<tr>
 						<td></td>
 						<td style = {ths}>KAROL BAGH KI CHAT-STARTER</td>
@@ -275,6 +275,7 @@ class Menu extends Component {
 
 
 				<div class="col-sm-6 col-md-6 col-lg-6">
+					<div class="table-responsive">
 					<table>
 					<tr>
 						<td></td>
@@ -480,6 +481,7 @@ class Menu extends Component {
 					</div>
 					</div>
 					</div>
+					</div>
 
 
 
@@ -488,6 +490,7 @@ class Menu extends Component {
 				<div class = "container1">
 				<div class="row">
 				<div class="col-sm-6">
+				<div class="table-responsive">
 					<table class ="centred">
 					<tr>
 						<td></td>
@@ -577,7 +580,7 @@ class Menu extends Component {
 					
 					</table>
 					</div>
-
+					</div>
 
 
 
@@ -588,6 +591,7 @@ class Menu extends Component {
 
 
 					<div class="col-sm-6">
+					<div class="table-responsive">
 					<table class = "centred">
 				
 					<tr>
@@ -684,7 +688,7 @@ class Menu extends Component {
 					</div>
 					</div>
 					</div>
-
+					</div>
 
 
 
@@ -693,6 +697,7 @@ class Menu extends Component {
 				<div class = "container1">
 				<div class="row">
 				<div class="col-sm-6">
+				<div class="table-responsive">
 					<table class = "centred">
 					<tr>
 						<td></td>
@@ -771,7 +776,7 @@ class Menu extends Component {
 					</tr>
 					</table>
 					</div>
-
+					</div>
 
 
 
@@ -783,7 +788,7 @@ class Menu extends Component {
 
 
 				<div class="col-sm-6">
-
+				<div class="table-responsive">
 					<table class = "centred">
 					<tr>
 						<td></td>
@@ -860,13 +865,14 @@ class Menu extends Component {
 					</div>
 					</div>
 					</div>
-
+					</div>
 
 
 
 				<div class = "container1">
 				<div class="row">
 				<div class="col-sm-6">
+				<div class="table-responsive">
 					<table class = "centred">
 
 					<tr>
@@ -1009,7 +1015,7 @@ class Menu extends Component {
 
 					</table>
 					</div>
-
+					</div>
 
 
 
@@ -1017,7 +1023,7 @@ class Menu extends Component {
 
 
 				<div class="col-sm-6">
-
+				<div class="table-responsive">
 					<table class ="centred">
 					<tr>
 
@@ -1149,7 +1155,7 @@ class Menu extends Component {
 					</div>
 					</div>
 					</div>
-
+					</div>
 
 
 
@@ -1157,7 +1163,7 @@ class Menu extends Component {
 					<div class = "container1">
 					<div class="row">
 				<div class="col-sm-6">
-
+				<div class="table-responsive">
 					<table>
 					<tr>
 						<td></td>
@@ -1271,7 +1277,7 @@ class Menu extends Component {
 					</tr>
 					</table>
 					</div>
-
+					</div>
 
 
 
@@ -1280,7 +1286,7 @@ class Menu extends Component {
 
 
 				<div class="col-sm-6">
-
+				<div class="table-responsive">
 					<table>
 					<tr>
 						<td></td>
@@ -1373,12 +1379,12 @@ class Menu extends Component {
 					</div>
 					</div>
 					</div>
-
+					</div>
 
 					<div class = "container1">
 					<div class="row">
 				<div class="col-sm-12">
-
+				<div class="table-responsive">
 					<table class = "centred">
 
 
@@ -1481,6 +1487,8 @@ class Menu extends Component {
 				</div>
 				</div>
 				</div>
+				</div>
+						<div class="table-responsive">
 						<table >
 							<tr>
 								<td></td>
@@ -1608,6 +1616,7 @@ class Menu extends Component {
 								<td>14.9</td>
 							</tr>
 						</table>
+						</div>
 			<Footer/>
 			</div>
 			)

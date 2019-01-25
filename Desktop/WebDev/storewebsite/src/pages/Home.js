@@ -59,7 +59,8 @@ class Home extends Component {
 				<Header/>
 				<h2 style ={h2s}> Delhi Grill </h2>
 
-      <img src={allmenu}  class="img-responsive" alt = "menu"/>
+
+<img src={allmenu}  class="img-responsive" alt = "menu"/>
       <br />
       <br />
 
@@ -70,7 +71,10 @@ class Home extends Component {
 				</div>
 
 				<h2 style = {h2s}>Our Specialities </h2>
-        <div class = "container">
+        <div class = "row">
+        <div class="col s12 m2 l2"></div>
+        <div class = "col s12 m8 l8">
+        <div class="col s12 m2 l2"></div>
 				 <div class=" slider">
     <ul class="slides">
       <li>
@@ -97,7 +101,7 @@ class Home extends Component {
     </ul>
   </div>
 </div>
-
+</div>
 
   			<Footer />
 			</div>	
