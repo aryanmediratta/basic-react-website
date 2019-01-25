@@ -29,8 +29,8 @@ class Footer extends Component {
             <div class="col s12 m6 l5">
                 <ul>
                   <li> <SocialIcon url="https://www.facebook.com/Delhi-Grill-304409520408653/?modal=admin_todo_tour" rel="noopener noreferrer" target="_blank" network="facebook" style= {h2s} /> </li>
-                  <li> <p style = {ths}> 100, Jalan Tun Sambanthan, Kuala Lumpur Sentral</p>  </li>
-                  <li> < p style = {ths}> 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur </p> </li>
+                  <li> <p style = {ths}> 100, Jalan Tun Sambanthan, Kuala Lumpur Sentral, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</p>  </li>
+                  <li> <p style = {ths}> F-7, Block F, Jalan GC 3, Glomac, Cyber Jaya, Cyber 12, Cyber Jaya 63200, Sepang  Malaysia </p> </li>
                   <li> <p style= {ths}> +60 16-264 6956 </p></li>
                 </ul>
                 </div>
