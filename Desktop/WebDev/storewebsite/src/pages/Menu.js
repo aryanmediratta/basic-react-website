@@ -482,7 +482,7 @@ class Menu extends Component {
 
 
 
-				<div class = "container">
+				<div class = "container1">
 				<div class="row">
 				<div class="col-sm-6">
 					<table class ="centred">
@@ -687,7 +687,7 @@ class Menu extends Component {
 
 
 
-				<div class = "container">
+				<div class = "container1">
 				<div class="row">
 				<div class="col-sm-6">
 					<table class = "centred">
@@ -861,7 +861,7 @@ class Menu extends Component {
 
 
 
-				<div class = "container">
+				<div class = "container1">
 				<div class="row">
 				<div class="col-sm-6">
 					<table class = "centred">
@@ -1151,9 +1151,9 @@ class Menu extends Component {
 
 
 
-
+					<div class = "container1">
 					<div class="row">
-				<div class="col s6">
+				<div class="col-sm-6">
 
 					<table>
 					<tr>
@@ -1269,7 +1269,14 @@ class Menu extends Component {
 					</table>
 					</div>
 
-				<div class="col s6">
+
+
+
+
+
+
+
+				<div class="col-sm-6">
 
 					<table>
 					<tr>
@@ -1362,6 +1369,12 @@ class Menu extends Component {
 					</table>
 					</div>
 					</div>
+					</div>
+
+
+					<div class = "container1">
+					<div class="row">
+				<div class="col-sm-12">
 
 					<table class = "centred">
 
@@ -1448,7 +1461,7 @@ class Menu extends Component {
 					</tr>
 					<tr>
 						<td>222</td>
-						<td>ICE CREAM( CHOCOLATE/VANILLA/STRAWBERRY/MANGO)</td>
+						<td>ICE CREAM(CHOCOLATE/VANILLA / STRAWBERRY/MANGO)</td>
 						<td>5.99</td>
 					</tr>
 					<tr>
@@ -1462,6 +1475,9 @@ class Menu extends Component {
 						<td>4.99</td>
 					</tr>
 				</table>
+				</div>
+				</div>
+				</div>
 						<table >
 							<tr>
 								<td></td>
