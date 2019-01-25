@@ -1157,12 +1157,10 @@ class Menu extends Component {
 
 
 					<div class="row">
-				<div class="col s12">
+				<div class="col s6">
 
-					<table class = "centred">
-
+					<table>
 					<tr>
-
 						<td></td>
 						<td style = {ths}>DRINKS- LASSI</td>
 						<td></td>
@@ -1275,9 +1273,9 @@ class Menu extends Component {
 					</table>
 					</div>
 
-				<div class="col s12">
+				<div class="col s6">
 
-					<table class = "centred">
+					<table>
 					<tr>
 						<td></td>
 						<td style = {ths}>SOFT DRINKS</td>
