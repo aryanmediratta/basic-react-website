@@ -24,7 +24,7 @@ const h2s = {
 const ths = {
 	fontFamily : 'Comic Sans MS',
 	fontWeight : 'bold',
-	fontSize : '16px'
+	fontSize : '18px'
 }
 
 
