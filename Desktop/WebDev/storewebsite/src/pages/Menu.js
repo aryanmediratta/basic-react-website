@@ -24,7 +24,7 @@ const h2s = {
 const ths = {
 	fontFamily : 'Times',
 	fontWeight : 'bold',
-	fontSize : '18px'
+	fontSize : '15px'
 }
 
 
@@ -47,9 +47,13 @@ class Menu extends Component {
 			<div class = 'container'>
 			<h2 style = {h2s}> Our Delicate Menu </h2>
 			</div>
+
+
+
+
 				<div class="row">
 				<div class="col s6">
-				<table class="highlight">
+				<table>
 					<tr>
 						<td></td>
 						<td style = {ths}>KAROL BAGH KI CHAT-STARTER</td>
@@ -267,12 +271,8 @@ class Menu extends Component {
 
 
 
-
-
-
-
-					<div class="col s6">
-					<table class = "centred">
+				<div class="col s6">
+					<table>
 					<tr>
 						<td></td>
 						<td style = {ths}>GALI PARATHE WALI KE PARATHE NAN, ROTI & WRAP</td>
@@ -484,7 +484,6 @@ class Menu extends Component {
 
 
 
-
 					<div class="row">
 				<div class="col s6">
 					<table class ="centred">
@@ -636,7 +635,7 @@ class Menu extends Component {
 					</tr>
 					<tr>
 						<td></td>
-						<td>PANEER MAHIPALPUR(ALA-CARTE)</td>
+						<td style = {ths}>PANEER MAHIPALPUR(ALA-CARTE)</td>
 						<td></td>
 					</tr>
 					<tr>
