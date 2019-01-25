@@ -19,14 +19,18 @@ import M from 'materialize-css/dist/js/materialize.min.js';
 
 const h2s = {
 	textAlign : 'center',
-	fontFamily : 'Times',
+	fontFamily : 'Comic Sans MS',
 }
 
 const ps = {
 	color : 'black',
   textAlign : 'center',
-  fontFamily : 'Times',
+  fontFamily : 'Comic Sans MS',
   fontSize : '20px'
+}
+
+const imgS = {
+  width : '100%'
 }
 
 class Home extends Component {
@@ -53,11 +57,11 @@ class Home extends Component {
 		return(	
 			<div>
 				<Header/>
-				<h2 style ={h2s}> This is the homepage </h2>
+				<h2 style ={h2s}> Delhi Grill </h2>
 
-				<div class="parallax-container">
-      <div class="parallax"><img src={allmenu} alt = "menu"/></div>
-    </div>
+      <img src={allmenu}  class="img-responsive" alt = "menu"/>
+      <br />
+      <br />
 
 				<div className = "container">
 				
@@ -66,32 +70,35 @@ class Home extends Component {
 				</div>
 
 				<h2 style = {h2s}>Our Specialities </h2>
-
+        <div class = "container">
 				 <div class=" slider">
     <ul class="slides">
       <li>
-        <img src={golgappa} alt = "menu"/> 
+        <img src={golgappa} class="img-responsive" alt = "menu"/> 
       </li>
       <li>
-        <img src={kebab} alt = "menu"/> 
+        <img src={kebab} class="img-responsive" alt = "menu"/> 
       </li>
       <li>
-        <img src={rice} alt = "menu"/> 
+        <img src={rice} class="img-responsive" alt = "menu"/> 
       </li>
       <li>
-        <img src={paneer} alt = "menu"/> 
+        <img src={paneer} class="img-responsive" alt = "menu"/> 
       </li>
       <li>
-        <img src={dish} alt = "menu"/> 
+        <img src={dish} class="img-responsive" alt = "menu"/> 
       </li>
       <li>
-        <img src={kulfi} alt = "menu"/> 
+        <img src={kulfi} class="img-responsive" alt = "menu"/> 
       </li>
       <li>
-        <img src={chinese} alt = "menu"/> 
+        <img src={chinese} class="img-responsive" alt = "menu"/> 
       </li>
     </ul>
   </div>
+</div>
+
+
   			<Footer />
 			</div>	
 			);

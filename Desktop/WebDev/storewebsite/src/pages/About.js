@@ -6,11 +6,11 @@ import Footer from '../components/Footer'
 
 const h2s = {
 	textAlign : 'center',
-	fontFamily : 'Times',
+	fontFamily : 'Comic Sans MS',
 }
 
 const h1s = {
-	fontFamily : 'Times',
+	fontFamily : 'Comic Sans MS',
 }
 
 class About extends Component {

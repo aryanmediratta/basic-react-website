@@ -17,12 +17,12 @@ const stylo = {
 
 const h2s = {
 	textAlign : 'center',
-	fontFamily : 'Times',
+	fontFamily : 'Comic Sans MS',
 	fontWeight : 'bold'
 }
 
 const ths = {
-	fontFamily : 'Times',
+	fontFamily : 'Comic Sans MS',
 	fontWeight : 'bold',
 	fontSize : '16px'
 }
@@ -45,15 +45,16 @@ class Menu extends Component {
 			<div>
 			<Header/>
 			<div class = 'container'>
-			<h2 style = {h2s}> Our Delicate Menu </h2>
+			<h2 style = {h2s}> Our Menu </h2>
 			</div>
 
 
-
+			
 				<div class = "container1">
 				<div class="row">
 				<div class="col-sm-6 col-md-6 col-lg-6">
-				<table>
+				<div class="table-responsive">
+				<table class="table table-hover">
 					<tr>
 						<td></td>
 						<td style = {ths}>KAROL BAGH KI CHAT-STARTER</td>
@@ -266,6 +267,8 @@ class Menu extends Component {
 					</tr>
 					</table>
 					</div>
+					</div>
+
 
 
 
