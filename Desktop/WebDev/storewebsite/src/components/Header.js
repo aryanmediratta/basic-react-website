@@ -22,15 +22,15 @@ document.addEventListener('DOMContentLoaded', function() {
 			 <nav>
     <div class="nav-wrapper white" >
       <a href="/" class="brand-logo" style={{color:'black',
-  fontFamily : 'Garamond'}}>Delhi Grill</a>
+  fontFamily : 'Times'}}>Delhi Grill</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger" style={{color:'black'}}><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down" >
         <li><a href="/menu" style={{color:'black',
-  fontFamily : 'Garamond'}}>Menu</a></li>
+  fontFamily : 'Times'}}>Menu</a></li>
         <li><a href="/about" style={{color:'black',
-  fontFamily : 'Garamond'}}>About Us</a></li>
+  fontFamily : 'Times'}}>About Us</a></li>
         <li><a href="/contact" style={{color:'black',
-  fontFamily : 'Garamond'}}>Contact Us</a></li>
+  fontFamily : 'Times'}}>Contact Us</a></li>
       </ul>
     </div>
   </nav>
