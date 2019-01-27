@@ -58,7 +58,7 @@ class Home extends Component {
 		return(	
 			<div>
 				<Header/>
-				<h2 style ={h2s}> Delhi Grill </h2>
+				<h2 style ={h2s}>Delhi Grill</h2>
 
 
 <img src={allmenu}  className="img-responsive" alt = "menu"/>

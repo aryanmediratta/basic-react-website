@@ -25,10 +25,11 @@ document.addEventListener('DOMContentLoaded', function() {
 		
 			
 			<Fragment>
+      <div class="navbar-fixed">
 			 <nav>
     <div className="nav-wrapper blue-grey darken-3" >
-      <a href="/" className="brand-logo cyan-text text-lighten-4" style={{color:'cyan',fontFamily : 'Times'}}>Delhi Grill</a>
-      <a href="#" data-target="mobile-demo" className="sidenav-trigger" style={{color:'cyan'}}><i className="material-icons">menu</i></a>
+      <a href="/" className="brand-logo cyan-text text-lighten-4" >Delhi Grill</a>
+      <a href="#" data-target="mobile-demo" className="sidenav-trigger cyan-text text-lighten-4" ><i className="material-icons">menu</i></a>
       <ul className="right hide-on-med-and-down" >
         <li><a href="/menu" className="cyan-text text-lighten-4">Menu</a></li>
         <li><a href="/about" className="cyan-text text-lighten-4">About Us</a></li>
@@ -43,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <li><a href="/about">About Us</a></li>
         <li><a href="/contact">Contact Us</a></li>
   </ul>
+  </div>
 			</Fragment>
 
 			)

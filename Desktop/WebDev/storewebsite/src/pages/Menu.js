@@ -37,6 +37,7 @@ class Menu extends Component {
     var instances = M.Materialbox.init(elems);
   });
 
+M.AutoInit();
 	}
 
 
@@ -46,14 +47,22 @@ class Menu extends Component {
 			<Header/>
 			<div className = 'container'>
 			<h2 style = {h2s}> Our Menu </h2>
-			
-			<li> <a href = "#starters"> Starters </a> </li>
-			<li> <a href = "#mains"> Main Course </a> </li>
-			<li> <a href = "#sweet"> Sweet Dishes </a> </li>
-			<li> <a href = "#drinks"> Drinks </a> </li>
-			<li> <a href = "#thali"> Thali </a> </li>
-
+			<div className = "row">
+			<div class="col s12">
+			<ul className = "tabs">
+			<li class="tab col s3"> <a className="btn-flat black-text text-lighten-4 " href = "#starters"> Starters </a> </li>
+			<li class="tab col s3"> <a className="btn-flat black-text text-lighten-4 " href = "#mains"> Main Course </a> </li>
+			<li class="tab col s3"> <a className="btn-flat black-text text-lighten-4 " href = "#breads"> Breads </a> </li>
+			<li class="tab col s3"> <a className="btn-flat black-text text-lighten-4 " href = "#drinks"> Drinks </a> </li>
+			<li class="tab col s3"> <a className="btn-flat black-text text-lighten-4 " href = "#sweet"> Sweet Dishes </a> </li>
+			<li class="tab col s3"> <a className="btn-flat black-text text-lighten-4 " href = "#thali"> Thali </a> </li>
+			</ul>
 			</div>
+			</div>
+			</div>
+
+			
+			
 			
 				<div className = "container1">
 				<div className = "row">
@@ -281,7 +290,8 @@ class Menu extends Component {
 
 
 				<div className = "col-sm-6 col-md-6 col-lg-6">
-					<div className = "table-responsive">
+					<div className = "table-responsive">									
+					<a name="starters"></a>
 					<table>
 					<tr>
 						<td></td>
@@ -488,7 +498,6 @@ class Menu extends Component {
 					</div>
 					</div>
 					</div>
-
 
 
 
@@ -1172,6 +1181,7 @@ class Menu extends Component {
 				<div className = "col-sm-6">
 				<div className = "table-responsive">
 					<table>
+					<a name="drinks"></a>
 					<tr>
 						<td></td>
 						<td style = {ths}>DRINKS- LASSI</td>
@@ -1498,6 +1508,7 @@ class Menu extends Component {
 				</div>
 						<div className = "table-responsive">
 						<table >
+					<a name="thali"></a>
 							<tr>
 								<td></td>
 								<td style = {ths}>SET MENU THALI</td>
