@@ -17,12 +17,12 @@ const stylo = {
 
 const h2s = {
 	textAlign : 'center',
-	fontFamily : 'Times',
+	fontFamily : 'Open Sans',
 	fontWeight : 'bold'
 }
 
 const ths = {
-	fontFamily : 'Times',
+	fontFamily : 'Open Sans',
 	fontWeight : 'bold',
 	fontSize : '18px'
 }

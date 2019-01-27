@@ -19,13 +19,13 @@ import M from 'materialize-css/dist/js/materialize.min.js';
 
 const h2s = {
 	textAlign : 'center',
-	fontFamily : 'Courier New',
+	fontFamily : 'Open Sans',
 }
 
 const ps = {
 	color : 'black',
   textAlign : 'center',
-  fontFamily : 'Courier New',
+  fontFamily : 'Open Sans',
   fontSize : '20px'
 }
 

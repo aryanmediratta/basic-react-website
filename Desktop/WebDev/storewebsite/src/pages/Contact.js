@@ -8,11 +8,11 @@ import Map from '../components/Map';
 
 const h2s = {
 	textAlign : 'center',
-	fontFamily : 'Courier New',
+	fontFamily : 'Open Sans',
 }
 
 const h1s = {
-	fontFamily : 'Courier New',
+	fontFamily : 'Open Sans',
 }
 
 class Contact extends Component {
@@ -22,9 +22,6 @@ class Contact extends Component {
 			<div>
 			<Header/>
 			<h2 style = {h2s}> Contact Us  </h2>
-			<div className = "container">
-			<p style = {h1s}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
 			<div className = "row">
         	<div className="col s12 m1 l2"></div>
         	<div className = "col s12 m10 l8">
@@ -33,6 +30,11 @@ class Contact extends Component {
 			</div>
 			</div>
 			<div className="col s12 m1 l2"></div>
+			</div>
+			<div className = "container"> 
+			<a className="btn-flat black-text text-lighten-4" href="tel:60169560954" target="_blank"><i class="material-icons left">phone</i>60169560954</a>
+			<a className="btn-flat black-text text-lighten-4" href="https://api.whatsapp.com/send?phone=60169560954" target="_blank"><i class="material-icons left">message</i>WhatsApp</a>
+			<a className="btn-flat black-text text-lighten-4" href="mailto:info@delhigrillkl.com" target="_blank"><i class="material-icons left">email</i>info@delhigrillkl.com</a>
 			</div>
 			<Footer />
 			</div>

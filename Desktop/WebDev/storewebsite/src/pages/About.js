@@ -6,11 +6,11 @@ import Footer from '../components/Footer'
 
 const h2s = {
 	textAlign : 'center',
-	fontFamily : 'Courier New',
+	fontFamily : 'Open Sans',
 }
 
 const h1s = {
-	fontFamily : 'Courier New',
+	fontFamily : 'Open Sans',
 }
 
 class About extends Component {
