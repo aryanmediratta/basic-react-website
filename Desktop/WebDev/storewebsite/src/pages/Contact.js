@@ -27,6 +27,13 @@ class Contact extends Component {
         	<div className = "col s12 m10 l8">
 			<div style={{width: '100%', height: '400px'}}>
 			<Map />
+			<br/>
+			<br/>
+			<br/>
+			<br/>			<br/>
+			<br/>			<br/>
+			<br/>			<br/>
+			<br/>
 			</div>
 			</div>
 			<div className="col s12 m1 l2"></div>
