@@ -80,35 +80,61 @@ class Home extends Component {
     <ul className = "slides">
       <li>
         <img src={golgappa} alt = "menu"/> 
+        <div class="caption center-align">
+          <h3>Foooood</h3>
+          <h5 >Some stuff about it.</h5>
+        </div>
       </li>
       <li>
         <img src={kebab} alt = "menu"/> 
+        <div class="caption center-align">
+          <h3>Foooood</h3>
+          <h5 >Some stuff about it.</h5>
+        </div>
       </li>
       <li>
         <img src={rice} alt = "menu"/> 
+        <div class="caption center-align">
+          <h3>Foooood</h3>
+          <h5 >Some stuff about it.</h5>
+        </div>
       </li>
       <li>
         <img src={paneer} alt = "menu"/> 
+        <div class="caption center-align">
+          <h3>Foooood</h3>
+          <h5 >Some stuff about it.</h5>
+        </div>
       </li>
       <li>
         <img src={dish} alt = "menu"/> 
+        <div class="caption center-align">
+          <h3>Foooood</h3>
+          <h5 >Some stuff about it.</h5>
+        </div>
       </li>
       <li>
         <img src={kulfi} alt = "menu"/> 
+        <div class="caption center-align">
+          <h3>Foooood</h3>
+          <h5 >Some stuff about it.</h5>
+        </div>
       </li>
       <li>
         <img src={laddoo} alt = "menu"/> 
+        <div class="caption center-align">
+          <h3>Foooood</h3>
+          <h5 >Some stuff about it.</h5>
+        </div>
       </li>
     </ul>
   </div>
 </div>
 </div>
 
+        <h2 style = {h2s}>Our Specialities </h2>
 
 <div class="container">
-  <h2>Carousel Options</h2>
-  <p>The <strong>data-interval</strong> attribute specifies the delay (in milliseconds) between each slide.</p>
-  <p>In this example, we have set the interval to "500" (default is 5000).</p>
   <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="1500">
 
     <ol class="carousel-indicators">
@@ -120,20 +146,34 @@ class Home extends Component {
 
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src={laddoo} alt="Chania" />
+        <img src={laddoo} alt="Chania" width="460" height="345"/>
+        <div class="carousel-caption">
+        <h2> Foood </h2>
+        <p> Some stuff about it </p>
+        </div>
       </div>
 
       <div class="item">
-        <img src={chinese} alt="Chania"/>
+        <img src={chinese} alt="Chania" width="460" height="345"/>
+        <div class="carousel-caption">
+        <h2> Foood </h2>
+        <p> Some stuff about it </p>
+      </div>
       </div>
     
       <div class="item">
-        <img src={paneer} alt="Flower"/>
-      </div>
+        <img src={paneer} alt="Flower" width="460" height="345"/>
+        <div class="carousel-caption">
+        <h2> Foood </h2>
+        <p> Some stuff about it </p>
+      </div></div>
 
       <div class="item">
-        <img src={rice} alt="Flower" />
-      </div>
+        <img src={rice} alt="Flower" width="460" height="345"/>
+        <div class="carousel-caption">
+        <h2> Foood </h2>
+        <p> Some stuff about it </p>
+      </div></div>
     </div>
 
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
