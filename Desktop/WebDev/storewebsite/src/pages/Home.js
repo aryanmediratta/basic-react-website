@@ -60,7 +60,7 @@ class Home extends Component {
 				<h2 style ={h2s}> Delhi Grill </h2>
 
 
-<img src={allmenu}  class="img-responsive" alt = "menu"/>
+<img src={allmenu}  className="img-responsive" alt = "menu"/>
       <br />
       <br />
 
@@ -78,25 +78,25 @@ class Home extends Component {
 				 <div className = "slider">
     <ul className = "slides">
       <li>
-        <img src={golgappa} class="img-responsive" alt = "menu"/> 
+        <img src={golgappa} alt = "menu"/> 
       </li>
       <li>
-        <img src={kebab} class="img-responsive" alt = "menu"/> 
+        <img src={kebab} alt = "menu"/> 
       </li>
       <li>
-        <img src={rice} class="img-responsive" alt = "menu"/> 
+        <img src={rice} alt = "menu"/> 
       </li>
       <li>
-        <img src={paneer} class="img-responsive" alt = "menu"/> 
+        <img src={paneer} alt = "menu"/> 
       </li>
       <li>
-        <img src={dish} class="img-responsive" alt = "menu"/> 
+        <img src={dish} alt = "menu"/> 
       </li>
       <li>
-        <img src={kulfi} class="img-responsive" alt = "menu"/> 
+        <img src={kulfi} alt = "menu"/> 
       </li>
       <li>
-        <img src={chinese} class="img-responsive" alt = "menu"/> 
+        <img src={laddoo} alt = "menu"/> 
       </li>
     </ul>
   </div>

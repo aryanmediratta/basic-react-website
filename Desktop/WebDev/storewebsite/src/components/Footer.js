@@ -21,12 +21,12 @@ class Footer extends Component {
 
     return(
 
-    <footer class="page-footer white">
-      <div class="container">
-          <div class="row">
-            <div class="col s12 m4 l2"></div>
-            <div class="col s12 m2 l5"></div>
-            <div class="col s12 m6 l5">
+    <footer className = "page-footer white">
+      <div className = "container">
+          <div className = "row">
+            <div className = "col s12 m4 l2"></div>
+            <div className = "col s12 m2 l5"></div>
+            <div className = "col s12 m6 l5">
                 <ul>
                   <li> <SocialIcon url="https://www.facebook.com/Delhi-Grill-304409520408653/?modal=admin_todo_tour" rel="noopener noreferrer" target="_blank" network="facebook" style= {h2s} /> </li>
                   <li> <p style = {ths}> 100, Jalan Tun Sambanthan, Kuala Lumpur Sentral, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</p>  </li>

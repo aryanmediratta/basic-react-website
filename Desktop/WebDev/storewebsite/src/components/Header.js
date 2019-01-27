@@ -20,11 +20,10 @@ document.addEventListener('DOMContentLoaded', function() {
 			
 			<Fragment>
 			 <nav>
-    <div class="nav-wrapper white" >
-      <a href="/" class="brand-logo" style={{color:'black',
-  fontFamily : 'Courier New'}}>Delhi Grill</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger" style={{color:'black'}}><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down" >
+    <div className="nav-wrapper white" >
+      <a href="/" className="brand-logo" style={{color:'black',fontFamily : 'Courier New'}}>Delhi Grill</a>
+      <a href="#" data-target="mobile-demo" className="sidenav-trigger" style={{color:'black'}}><i className="material-icons">menu</i></a>
+      <ul className="right hide-on-med-and-down" >
         <li><a href="/menu" style={{color:'black',
   fontFamily : 'Courier New'}}>Menu</a></li>
         <li><a href="/about" style={{color:'black',
@@ -35,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
   </nav>
 
-  <ul class="sidenav" id="mobile-demo">
+  <ul className="sidenav" id="mobile-demo">
     <li><a href="/">Home</a></li>
         <li><a href="/menu">Menu</a></li>
         <li><a href="/about">About Us</a></li>
