@@ -43,8 +43,7 @@ class Contact extends Component {
 			<a className="btn-flat black-text text-lighten-4" href="tel:60169560954" target="_blank"><i class="material-icons left">phone</i>60169560954</a>
 			<a className="btn-flat black-text text-lighten-4" href="https://api.whatsapp.com/send?phone=60169560954" target="_blank"><i class="material-icons left">message</i>WhatsApp</a>
 			<a className="btn-flat black-text text-lighten-4" href="mailto:info@delhigrillkl.com" target="_blank"><i class="material-icons left">email</i>info@delhigrillkl.com</a>
-			<br/>
-			<a className="btn-flat black-text text-lighten-4" href = "https://www.foodpanda.my/restaurant/m7ah/delhi-grill-brickfield" target = "_blank">Order From Us on Foodpanda! </a>
+			&nbsp;&nbsp;&nbsp;<a className="black-text text-lighten-4" href = "https://www.foodpanda.my/restaurant/m7ah/delhi-grill-brickfield" target = "_blank">Order From Us on Foodpanda! </a>
 			</div>
 			<Footer />
 			</div>

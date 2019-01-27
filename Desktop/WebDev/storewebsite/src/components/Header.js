@@ -7,6 +7,8 @@ const As = {
   fontFamily : 'Open Sans', 
   fontSize : '15px'
 }
+//        <li><a href="/about" className="cyan-text text-lighten-4">About Us</a></li>
+//        <li><a href="/about">About Us</a></li>
 
 class Header extends Component {
 	
@@ -31,7 +33,6 @@ document.addEventListener('DOMContentLoaded', function() {
       <a href="#" data-target="mobile-demo" className="sidenav-trigger cyan-text text-lighten-4" ><i className="material-icons">menu</i></a>
       <ul className="right hide-on-med-and-down" >
         <li><a href="/menu" className="cyan-text text-lighten-4">Menu</a></li>
-        <li><a href="/about" className="cyan-text text-lighten-4">About Us</a></li>
         <li><a href="/contact" className="cyan-text text-lighten-4">Contact Us</a></li>
       </ul>
     </div>
@@ -40,7 +41,6 @@ document.addEventListener('DOMContentLoaded', function() {
   <ul className="sidenav" id="mobile-demo">
     <li><a href="/">Home</a></li>
         <li><a href="/menu">Menu</a></li>
-        <li><a href="/about">About Us</a></li>
         <li><a href="/contact">Contact Us</a></li>
   </ul>
 			</Fragment>
