@@ -44,17 +44,17 @@ class Menu extends Component {
 		return(
 			<div>
 			<Header/>
-			<div class = 'container'>
+			<div className = 'container'>
 			<h2 style = {h2s}> Our Menu </h2>
 			</div>
 
 
 			
-				<div class = "container1">
-				<div class="row">
-				<div class="col-sm-6 col-md-6 col-lg-6">
-				<div class="table-responsive">
-				<table class="table">
+				<div className = "container1">
+				<div className = "row">
+				<div className = "col-sm-6 col-md-6 col-lg-6">
+				<div className = "table-responsive">
+				<table className = "table">
 					<tr>
 						<td></td>
 						<td style = {ths}>KAROL BAGH KI CHAT-STARTER</td>
@@ -274,8 +274,8 @@ class Menu extends Component {
 
 
 
-				<div class="col-sm-6 col-md-6 col-lg-6">
-					<div class="table-responsive">
+				<div className = "col-sm-6 col-md-6 col-lg-6">
+					<div className = "table-responsive">
 					<table>
 					<tr>
 						<td></td>
@@ -487,11 +487,11 @@ class Menu extends Component {
 
 
 
-				<div class = "container1">
-				<div class="row">
-				<div class="col-sm-6">
-				<div class="table-responsive">
-					<table class ="centred">
+				<div className = "container1">
+				<div className = "row">
+				<div className = "col-sm-6">
+				<div className = "table-responsive">
+					<table className ="centred">
 					<tr>
 						<td></td>
 						<td style = {ths}>DELHI GRILL TANDOORI SPECIAL</td>
@@ -590,9 +590,9 @@ class Menu extends Component {
 
 
 
-					<div class="col-sm-6">
-					<div class="table-responsive">
-					<table class = "centred">
+					<div className = "col-sm-6">
+					<div className = "table-responsive">
+					<table className = "centred">
 				
 					<tr>
 						<td></td>
@@ -694,11 +694,11 @@ class Menu extends Component {
 
 
 
-				<div class = "container1">
-				<div class="row">
-				<div class="col-sm-6">
-				<div class="table-responsive">
-					<table class = "centred">
+				<div className = "container1">
+				<div className = "row">
+				<div className = "col-sm-6">
+				<div className = "table-responsive">
+					<table className = "centred">
 					<tr>
 						<td></td>
 						<td style = {ths}>DESI CHINESE DELHI SE(ALA -CARTE)</td>
@@ -787,9 +787,9 @@ class Menu extends Component {
 
 
 
-				<div class="col-sm-6">
-				<div class="table-responsive">
-					<table class = "centred">
+				<div className = "col-sm-6">
+				<div className = "table-responsive">
+					<table className = "centred">
 					<tr>
 						<td></td>
 						<td style = {ths}>SABZIYAN AZADPUR SABZI MANDI SE</td>
@@ -869,11 +869,11 @@ class Menu extends Component {
 
 
 
-				<div class = "container1">
-				<div class="row">
-				<div class="col-sm-6">
-				<div class="table-responsive">
-					<table class = "centred">
+				<div className = "container1">
+				<div className = "row">
+				<div className = "col-sm-6">
+				<div className = "table-responsive">
+					<table className = "centred">
 
 					<tr>
 						<td></td>
@@ -1022,9 +1022,9 @@ class Menu extends Component {
 
 
 
-				<div class="col-sm-6">
-				<div class="table-responsive">
-					<table class ="centred">
+				<div className = "col-sm-6">
+				<div className = "table-responsive">
+					<table className ="centred">
 					<tr>
 
 						<td></td>
@@ -1160,10 +1160,10 @@ class Menu extends Component {
 
 
 
-					<div class = "container1">
-					<div class="row">
-				<div class="col-sm-6">
-				<div class="table-responsive">
+					<div className = "container1">
+					<div className = "row">
+				<div className = "col-sm-6">
+				<div className = "table-responsive">
 					<table>
 					<tr>
 						<td></td>
@@ -1285,8 +1285,8 @@ class Menu extends Component {
 
 
 
-				<div class="col-sm-6">
-				<div class="table-responsive">
+				<div className = "col-sm-6">
+				<div className = "table-responsive">
 					<table>
 					<tr>
 						<td></td>
@@ -1381,11 +1381,11 @@ class Menu extends Component {
 					</div>
 					</div>
 
-					<div class = "container1">
-					<div class="row">
-				<div class="col-sm-12">
-				<div class="table-responsive">
-					<table class = "centred">
+					<div className = "container1">
+					<div className = "row">
+					<div className = "col-sm-12">
+					<div className = "table-responsive">
+					<table className = "centred">
 
 
 					<tr>
@@ -1488,7 +1488,7 @@ class Menu extends Component {
 				</div>
 				</div>
 				</div>
-						<div class="table-responsive">
+						<div className = "table-responsive">
 						<table >
 							<tr>
 								<td></td>
