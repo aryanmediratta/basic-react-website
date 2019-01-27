@@ -27,12 +27,12 @@ document.addEventListener('DOMContentLoaded', function() {
 			<Fragment>
 			 <nav>
     <div className="nav-wrapper blue-grey darken-3" >
-      <a href="/" className="brand-logo" style={{color:'cyan',fontFamily : 'Times'}}>Delhi Grill</a>
+      <a href="/" className="brand-logo cyan-text text-lighten-4" style={{color:'cyan',fontFamily : 'Times'}}>Delhi Grill</a>
       <a href="#" data-target="mobile-demo" className="sidenav-trigger" style={{color:'cyan'}}><i className="material-icons">menu</i></a>
       <ul className="right hide-on-med-and-down" >
-        <li><a href="/menu" style={As}>Menu</a></li>
-        <li><a href="/about" style={As}>About Us</a></li>
-        <li><a href="/contact" style={As}>Contact Us</a></li>
+        <li><a href="/menu" className="cyan-text text-lighten-4">Menu</a></li>
+        <li><a href="/about" className="cyan-text text-lighten-4">About Us</a></li>
+        <li><a href="/contact" className="cyan-text text-lighten-4">Contact Us</a></li>
       </ul>
     </div>
   </nav>
