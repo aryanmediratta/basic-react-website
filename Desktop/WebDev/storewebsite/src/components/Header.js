@@ -25,7 +25,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		
 			
 			<Fragment>
-      <div class="navbar-fixed">
 			 <nav>
     <div className="nav-wrapper blue-grey darken-3" >
       <a href="/" className="brand-logo cyan-text text-lighten-4" >Delhi Grill</a>
@@ -44,7 +43,6 @@ document.addEventListener('DOMContentLoaded', function() {
         <li><a href="/about">About Us</a></li>
         <li><a href="/contact">Contact Us</a></li>
   </ul>
-  </div>
 			</Fragment>
 
 			)

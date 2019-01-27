@@ -47,22 +47,16 @@ M.AutoInit();
 			<Header/>
 			<div className = 'container'>
 			<h2 style = {h2s}> Our Menu </h2>
-			<div className = "row">
-			<div class="col s12">
-			<ul className = "tabs">
-			<li class="tab col s3"> <a className="btn-flat black-text text-lighten-4 " href = "#starters"> Starters </a> </li>
-			<li class="tab col s3"> <a className="btn-flat black-text text-lighten-4 " href = "#mains"> Main Course </a> </li>
-			<li class="tab col s3"> <a className="btn-flat black-text text-lighten-4 " href = "#breads"> Breads </a> </li>
-			<li class="tab col s3"> <a className="btn-flat black-text text-lighten-4 " href = "#drinks"> Drinks </a> </li>
-			<li class="tab col s3"> <a className="btn-flat black-text text-lighten-4 " href = "#sweet"> Sweet Dishes </a> </li>
-			<li class="tab col s3"> <a className="btn-flat black-text text-lighten-4 " href = "#thali"> Thali </a> </li>
-			</ul>
-			</div>
-			</div>
+			<li> <a className="btn-flat black-text text-lighten-4" href = "#starters"> Starters </a> </li>
+			<li> <a className="btn-flat black-text text-lighten-4" href = "#mains"> Main Course </a> </li>
+			<li> <a className="btn-flat black-text text-lighten-4" href = "#breads"> Breads </a> </li>
+			<li> <a className="btn-flat black-text text-lighten-4" href = "#drinks"> Drinks </a> </li>
+			<li> <a className="btn-flat black-text text-lighten-4" href = "#sweet"> Sweet Dishes </a> </li>
+			<li> <a className="btn-flat black-text text-lighten-4" href = "#thali"> Thali </a> </li>
 			</div>
 
-			
-			
+
+
 			
 				<div className = "container1">
 				<div className = "row">
