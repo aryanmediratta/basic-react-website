@@ -12,7 +12,7 @@ const h2s = {
 const ths = {
   fontFamily : 'Courier New',
   fontSize : '18px',
-  color : 'Black'
+  color : 'white'
 }
 
 class Footer extends Component {
@@ -21,7 +21,7 @@ class Footer extends Component {
 
     return(
 
-    <footer className = "page-footer white">
+    <footer className = "page-footer grey darken-2">
       <div className = "container">
           <div className = "row">
             <div className = "col s12 m4 l2"></div>
