@@ -71,12 +71,12 @@ class Home extends Component {
 				</div>
 
 				<h2 style = {h2s}>Our Specialities </h2>
-        <div class = "row">
-        <div class="col s12 m2 l2"></div>
-        <div class = "col s12 m8 l8">
-        <div class="col s12 m2 l2"></div>
-				 <div class=" slider">
-    <ul class="slides">
+        <div className = "row">
+        <div className = "col s12 m2 l2"></div>
+        <div className = "col s12 m8 l8">
+        <div className = "col s12 m2 l2"></div>
+				 <div className = "slider">
+    <ul className = "slides">
       <li>
         <img src={golgappa} class="img-responsive" alt = "menu"/> 
       </li>
