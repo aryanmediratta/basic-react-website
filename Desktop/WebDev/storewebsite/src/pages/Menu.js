@@ -46,15 +46,21 @@ class Menu extends Component {
 			<Header/>
 			<div className = 'container'>
 			<h2 style = {h2s}> Our Menu </h2>
+			
+			<li> <a href = "#starters"> Starters </a> </li>
+			<li> <a href = "#mains"> Main Course </a> </li>
+			<li> <a href = "#sweet"> Sweet Dishes </a> </li>
+			<li> <a href = "#drinks"> Drinks </a> </li>
+			<li> <a href = "#thali"> Thali </a> </li>
+
 			</div>
-
-
 			
 				<div className = "container1">
 				<div className = "row">
 				<div className = "col-sm-6 col-md-6 col-lg-6">
 				<div className = "table-responsive">
 				<table className = "table">
+				<a name="starters"></a>
 					<tr>
 						<td></td>
 						<td style = {ths}>KAROL BAGH KI CHAT-STARTER</td>
@@ -492,6 +498,7 @@ class Menu extends Component {
 				<div className = "col-sm-6">
 				<div className = "table-responsive">
 					<table className ="centred">
+					<a name="mains"></a>
 					<tr>
 						<td></td>
 						<td style = {ths}>DELHI GRILL TANDOORI SPECIAL</td>
@@ -1387,6 +1394,7 @@ class Menu extends Component {
 					<div className = "table-responsive">
 					<table className = "centred">
 
+					<a name="sweet"></a>
 
 					<tr>
 						<td></td>
