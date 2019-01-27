@@ -51,20 +51,19 @@ class Menu extends Component {
 			<Header/>
 			<div className = 'container'>
 			<h2 style = {h2s}> Our Menu </h2>
+			
 			</div>
+			<div class="center">
 
-			<a class='dropdown-trigger btn center' href='#' data-target='dropdown1'>Menu!!</a>
-
-			<ul id="dropdown1" class="dropdown-content">
-			<li> <a className="btn-flat black-text text-lighten-4" href = "#starters"> Starters </a> </li>
-			<li> <a className="btn-flat black-text text-lighten-4" href = "#mains"> Main Course </a> </li>
-			<li> <a className="btn-flat black-text text-lighten-4" href = "#breads"> Breads </a> </li>
-			<li> <a className="btn-flat black-text text-lighten-4" href = "#drinks"> Drinks </a> </li>
-			<li> <a className="btn-flat black-text text-lighten-4" href = "#sweet"> Sweet Dishes </a> </li>
-			<li> <a className="btn-flat black-text text-lighten-4" href = "#thali"> Thali </a> </li>
-			</ul>
-
-
+			 <a className="btn-flat black-text text-lighten-4" href = "#starters"> Starters </a> 
+			 <a className="btn-flat black-text text-lighten-4" href = "#mains"> Main Course </a> 
+			 <a className="btn-flat black-text text-lighten-4" href = "#breads"> Breads </a>
+			 <a className="btn-flat black-text text-lighten-4" href = "#drinks"> Drinks </a> 
+			 <a className="btn-flat black-text text-lighten-4" href = "#sweet"> Sweet Dishes </a> 
+			 <a className="btn-flat black-text text-lighten-4" href = "#thali"> Thali </a> 
+			 
+			 
+			</div>
 <br/>
 				<br/><br/>
 			

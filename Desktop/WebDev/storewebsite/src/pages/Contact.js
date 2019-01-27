@@ -6,6 +6,8 @@ import Footer from '../components/Footer'
 
 import Map from '../components/Map';
 
+import { SocialIcon } from 'react-social-icons';
+
 const h2s = {
 	textAlign : 'center',
 	fontFamily : 'Open Sans',
@@ -44,7 +46,7 @@ class Contact extends Component {
 			</div>
 			<div className = "row">
 			<div className = "col s12 m6 4">
-			<a className="black-text text-lighten-4" href="mailto:info@delhigrillkl.com" target="_blank"><i class="material-icons left">email</i>info@delhigrillkl.com</a>
+			<SocialIcon url="mailto:info@delhigrillkl.com" target="_blank" network = "email" style={{ height: 25, width: 25 }} /> info@delhigrillkl.com 
 			</div>
 			<div className = "col s12 m6 4">
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a className="black-text text-lighten-4" href = "https://www.foodpanda.my/restaurant/m7ah/delhi-grill-brickfield" target = "_blank">Order From Us on Foodpanda! </a>
