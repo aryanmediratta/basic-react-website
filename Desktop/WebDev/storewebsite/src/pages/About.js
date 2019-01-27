@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 const h2s = {
 	textAlign : 'center',
 	fontFamily : 'Open Sans',
+	fontWeight : 'bold'
 }
 
 const h1s = {

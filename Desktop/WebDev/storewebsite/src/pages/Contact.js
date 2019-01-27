@@ -9,6 +9,7 @@ import Map from '../components/Map';
 const h2s = {
 	textAlign : 'center',
 	fontFamily : 'Open Sans',
+	fontWeight : 'bold'
 }
 
 const h1s = {
