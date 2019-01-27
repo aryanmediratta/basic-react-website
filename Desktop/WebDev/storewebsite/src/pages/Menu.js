@@ -37,7 +37,11 @@ class Menu extends Component {
     var instances = M.Materialbox.init(elems);
   });
 
-M.AutoInit();
+		document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems);
+  });
+
 	}
 
 
@@ -47,16 +51,22 @@ M.AutoInit();
 			<Header/>
 			<div className = 'container'>
 			<h2 style = {h2s}> Our Menu </h2>
+			</div>
+
+			<a class='dropdown-trigger btn center' href='#' data-target='dropdown1'>Menu!!</a>
+
+			<ul id="dropdown1" class="dropdown-content">
 			<li> <a className="btn-flat black-text text-lighten-4" href = "#starters"> Starters </a> </li>
 			<li> <a className="btn-flat black-text text-lighten-4" href = "#mains"> Main Course </a> </li>
 			<li> <a className="btn-flat black-text text-lighten-4" href = "#breads"> Breads </a> </li>
 			<li> <a className="btn-flat black-text text-lighten-4" href = "#drinks"> Drinks </a> </li>
 			<li> <a className="btn-flat black-text text-lighten-4" href = "#sweet"> Sweet Dishes </a> </li>
 			<li> <a className="btn-flat black-text text-lighten-4" href = "#thali"> Thali </a> </li>
-			</div>
+			</ul>
 
 
-
+<br/>
+				<br/><br/>
 			
 				<div className = "container1">
 				<div className = "row">
