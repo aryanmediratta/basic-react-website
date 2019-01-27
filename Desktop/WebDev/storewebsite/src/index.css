@@ -18,7 +18,7 @@ img {
   margin-right: auto;
 }
 p {
-  font-family: Times;
+  font-family: Courier New;
   font-size: 18px;
 }
 body {
@@ -31,6 +31,6 @@ body {
     flex: 1 0 auto;
   }
 table td{
-  font-family: Times;
+  font-family: Courier New;
   font-size: 16px;
 }

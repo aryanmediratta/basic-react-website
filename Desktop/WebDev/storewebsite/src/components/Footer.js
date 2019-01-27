@@ -10,7 +10,7 @@ const h2s = {
 }
 
 const ths = {
-  fontFamily : 'times',
+  fontFamily : 'Courier New',
   fontSize : '18px',
   color : 'Black'
 }

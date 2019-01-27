@@ -8,11 +8,11 @@ import Map from '../components/Map';
 
 const h2s = {
 	textAlign : 'center',
-	fontFamily : 'Garamond',
+	fontFamily : 'Courier New',
 }
 
 const h1s = {
-	fontFamily : 'Garamond',
+	fontFamily : 'Courier New',
 }
 
 class Contact extends Component {
