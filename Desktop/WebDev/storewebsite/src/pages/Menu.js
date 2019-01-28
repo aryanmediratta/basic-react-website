@@ -54,16 +54,24 @@ class Menu extends Component {
 			
 			</div>
 			<div class="center">
+			 <a className="black-text text-lighten-4 btn btn-md btn-link" href = "#starters"> Starters </a> 
+			 <a className="black-text text-lighten-4 btn btn-md btn-link" href = "#mains"> Main Course </a> 
+			 <a className="black-text text-lighten-4 btn btn-md btn-link" href = "#breads"> Breads </a>
+			 <a className="black-text text-lighten-4 btn btn-md btn-link" href = "#drinks"> Drinks </a> 
+			 <a className="black-text text-lighten-4 btn btn-md btn-link" href = "#sweet"> Sweet Dishes </a> 
+			 <a className="black-text text-lighten-4 btn btn-md btn-link" href = "#thali"> Thali </a> 
+			 </div>
+			 <br/>
+			 <br/>
 
-			 <a className="btn-flat black-text text-lighten-4" href = "#starters"> Starters </a> 
-			 <a className="btn-flat black-text text-lighten-4" href = "#mains"> Main Course </a> 
-			 <a className="btn-flat black-text text-lighten-4" href = "#breads"> Breads </a>
-			 <a className="btn-flat black-text text-lighten-4" href = "#drinks"> Drinks </a> 
-			 <a className="btn-flat black-text text-lighten-4" href = "#sweet"> Sweet Dishes </a> 
-			 <a className="btn-flat black-text text-lighten-4" href = "#thali"> Thali </a> 
-			 
-			 
+			<div class="center">
+			 <a className="black-text text-lighten-4 btn btn-md btn-link" href = "https://www.foodpanda.my/restaurant/m7ah/delhi-grill-brickfield" target = "_blank" rel="noopener noreferrer">Order From Us on Foodpanda! </a>
 			</div>
+			<br/>
+			<div class="center">
+			<a className="btn-flat black-text text-lighten-4" href="tel:60169560954" target="_blank" rel="noopener noreferrer"><i class="small material-icons left">phone</i>60169560954</a>
+			 </div>
+			 
 <br/>
 				<br/><br/>
 			
