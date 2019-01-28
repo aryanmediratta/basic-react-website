@@ -52,6 +52,11 @@ class Home extends Component {
     var instances = M.Parallax.init(elems);
   });
 
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, {fullWidth : 'true', indicators: 'true'});
+  });
+
 	}
 
 	render(){
@@ -134,59 +139,18 @@ class Home extends Component {
 
         <h2 style = {h2s}>Our Specialities </h2>
 
+
 <div class="container">
-  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="1500">
 
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src={laddoo} alt="Chania" width="460" height="345"/>
-        <div class="carousel-caption">
-        <h2> Foood </h2>
-        <p> Some stuff about it </p>
-        </div>
-      </div>
-
-      <div class="item">
-        <img src={chinese} alt="Chania" width="460" height="345"/>
-        <div class="carousel-caption">
-        <h2> Foood </h2>
-        <p> Some stuff about it </p>
-      </div>
-      </div>
-    
-      <div class="item">
-        <img src={paneer} alt="Flower" width="460" height="345"/>
-        <div class="carousel-caption">
-        <h2> Foood </h2>
-        <p> Some stuff about it </p>
-      </div></div>
-
-      <div class="item">
-        <img src={rice} alt="Flower" width="460" height="345"/>
-        <div class="carousel-caption">
-        <h2> Foood </h2>
-        <p> Some stuff about it </p>
-      </div></div>
-    </div>
-
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+<div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src = {kebab} /></a>
+    <a class="carousel-item" href="#two!"><img src = {chinese} /></a>
+    <a class="carousel-item" href="#three!"><img src = {rice} /></a>
+    <a class="carousel-item" href="#four!"><img src = {laddoo} /></a>
   </div>
 </div>
 
+  
 <br />
 <br/>
 
