@@ -32,7 +32,7 @@ class Contact extends Component {
 			<div className = "container"> 
 			<div className = "row">
 			<div className = "col s12 m6 l6">
-			<a className="btn-flat black-text text-lighten-4" href="tel:60169560954" target="_blank" rel="noopener noreferrer"><i class="small material-icons left">phone</i>60169560954</a>
+			<a className="btn-flat black-text text-lighten-4" href="tel:60169560954" target="_blank"><i class="small material-icons left">phone</i>60169560954</a>
 			</div>
 			<div className = "col s12 m6 l6">
 			<a className="btn-flat black-text text-lighten-4 right-align" href="https://api.whatsapp.com/send?phone=60169560954" target="_blank" rel="noopener noreferrer"><i class="small material-icons left">message</i>WhatsApp</a>

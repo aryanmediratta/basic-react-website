@@ -54,22 +54,22 @@ class Menu extends Component {
 			
 			</div>
 			<div class="center">
-			 <a className="black-text text-lighten-4 btn btn-md btn-link" href = "#starters"> Starters </a> 
-			 <a className="black-text text-lighten-4 btn btn-md btn-link" href = "#mains"> Main Course </a> 
-			 <a className="black-text text-lighten-4 btn btn-md btn-link" href = "#breads"> Breads </a>
-			 <a className="black-text text-lighten-4 btn btn-md btn-link" href = "#drinks"> Drinks </a> 
-			 <a className="black-text text-lighten-4 btn btn-md btn-link" href = "#sweet"> Sweet Dishes </a> 
-			 <a className="black-text text-lighten-4 btn btn-md btn-link" href = "#thali"> Thali </a> 
+			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#starters"> Starters </a> 
+			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#breads"> Breads </a>
+			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#mains"> Main Course </a> 
+			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#drinks"> Drinks </a> 
+			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#sweet"> Sweet Dishes </a> 
+			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#thali"> Thali </a> 
 			 </div>
 			 <br/>
 			 <br/>
 
 			<div class="center">
-			 <a className="black-text text-lighten-4 btn btn-md btn-link" href = "https://www.foodpanda.my/restaurant/m7ah/delhi-grill-brickfield" target = "_blank" rel="noopener noreferrer">Order From Us on Foodpanda! </a>
+			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "https://www.foodpanda.my/restaurant/m7ah/delhi-grill-brickfield" target = "_blank" rel="noopener noreferrer">Order From Us on Foodpanda! </a>
 			</div>
 			<br/>
 			<div class="center">
-			<a className="btn-flat black-text text-lighten-4" href="tel:60169560954" target="_blank" rel="noopener noreferrer"><i class="small material-icons left">phone</i>60169560954</a>
+			<a className="btn-flat black-text" href="tel:60169560954" target="_blank"><i class="small material-icons left">phone</i>60169560954</a>
 			 </div>
 			 
 <br/>
