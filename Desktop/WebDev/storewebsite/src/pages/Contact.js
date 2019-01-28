@@ -31,19 +31,23 @@ class Contact extends Component {
 			<br/>		
 			<div className = "container"> 
 			<div className = "row">
-			<div className = "col s12 m6 4">
+			<div className = "col s12 m6 l6">
 			<a className="btn-flat black-text text-lighten-4" href="tel:60169560954" target="_blank" rel="noopener noreferrer"><i class="small material-icons left">phone</i>60169560954</a>
 			</div>
-			<div className = "col s12 m6 4">
-			<a className="btn-flat black-text text-lighten-4" href="https://api.whatsapp.com/send?phone=60169560954" target="_blank" rel="noopener noreferrer"><i class="small material-icons left">message</i>WhatsApp</a>
+			<div className = "col s12 m6 l6">
+			<a className="btn-flat black-text text-lighten-4 right-align" href="https://api.whatsapp.com/send?phone=60169560954" target="_blank" rel="noopener noreferrer"><i class="small material-icons left">message</i>WhatsApp</a>
 			</div>
 			</div>
 			<div className = "row">
-			<div className = "col s12 m6 4">
+			<div className = "col s12 m6 l6">
 			<a className="black-text text-lighten-4" href="mailto:info@delhigrillkl.com" target="_blank" rel="noopener noreferrer"><i class="material-icons left">email</i>info@delhigrillkl.com</a>
 			</div>
-			<div className = "col s12 m6 4">
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a className="black-text text-lighten-4" href = "https://www.foodpanda.my/restaurant/m7ah/delhi-grill-brickfield" target = "_blank" rel="noopener noreferrer">Order From Us on Foodpanda! </a>
+			<div className = "col s12 m6 l6">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<div class = "hide-on-med-and-up">
+			<br/>
+			</div>
+			<a className="black-text text-lighten-4 right-align" href = "https://www.foodpanda.my/restaurant/m7ah/delhi-grill-brickfield" target = "_blank" rel="noopener noreferrer">Order From Us on Foodpanda! </a>
 			</div>
 			</div>
 			</div>

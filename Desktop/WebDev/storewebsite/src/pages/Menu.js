@@ -1509,8 +1509,11 @@ class Menu extends Component {
 				</div>
 				</div>
 				</div>
-						<div className = "table-responsive">
-						<table >
+				<div className = "container1">
+					<div className = "row">
+					<div className = "col-sm-12">
+					<div className = "table-responsive">
+					<table className = "centred">
 					<a name="thali"></a>
 							<tr>
 								<td></td>
@@ -1638,6 +1641,9 @@ class Menu extends Component {
 								<td>14.9</td>
 							</tr>
 						</table>
+						</div>
+						</div>
+						</div>
 						</div>
 			<Footer/>
 			</div>
