@@ -29,26 +29,22 @@ class Contact extends Component {
 			<div className="col s12 m1 l2"></div>
 			</div>
 			<br/>		
-			<div className = "container"> 
 			<div className = "row">
-			<div className = "col s12 m6 l6">
-			<a className="btn-flat black-text text-lighten-4" href="tel:60169560954" target="_blank"><i class="small material-icons left">phone</i>60169560954</a>
+			<div className = "col s7 m6 l6">
+			<a className="btn-flat black-text text-lighten-4" href="tel:60169560954" target="_blank" style = {{fontSize : '1em'}}><i class="small material-icons left">phone</i>60169560954</a>
 			</div>
-			<div className = "col s12 m6 l6">
-			<a className="btn-flat black-text text-lighten-4 right-align" href="https://api.whatsapp.com/send?phone=60169560954" target="_blank" rel="noopener noreferrer"><i class="small material-icons left">message</i>WhatsApp</a>
+			<div className = "col s5 m6 l6">
+			<a className="btn-flat black-text text-lighten-4 right-align" href="https://api.whatsapp.com/send?phone=60169560954" target="_blank" rel="noopener noreferrer" style = {{fontSize : '1em'}}><i class="small material-icons left">message</i>WhatsApp</a>
 			</div>
 			</div>
 			<div className = "row">
-			<div className = "col s12 m6 l6">
-			<a className="black-text text-lighten-4" href="mailto:info@delhigrillkl.com" target="_blank" rel="noopener noreferrer"><i class="material-icons left">email</i>info@delhigrillkl.com</a>
+			<div className = "col s6 m6 l6">
+			<a className="black-text text-lighten-4" href="mailto:info@delhigrillkl.com" target="_blank" rel="noopener noreferrer"><i class="material-icons left" style = {{fontSize : '1.5em'}}>email</i>info@delhigrillkl.com</a>
 			</div>
-			<div className = "col s12 m6 l6">
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<div className = "col s6 m6 l6">
 			<div class = "hide-on-med-and-up">
-			<br/>
 			</div>
-			<a className="black-text text-lighten-4 right-align" href = "https://www.foodpanda.my/restaurant/m7ah/delhi-grill-brickfield" target = "_blank" rel="noopener noreferrer">Order From Us on Foodpanda! </a>
-			</div>
+			<a className="black-text text-lighten-4 right-align" href = "https://www.foodpanda.my/restaurant/m7ah/delhi-grill-brickfield" target = "_blank" rel="noopener noreferrer" style = {{fontSize : '1em'}}>Order From Us on Foodpanda! </a>
 			</div>
 			</div>
 			<Footer />
