@@ -53,6 +53,7 @@ class Menu extends Component {
 			<h2 style = {h2s}> Our Menu </h2>
 			
 			</div>
+						<div className = 'container'>
 			<div class="center">
 			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#starters"> Starters </a> 
 			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#breads"> Breads </a>
@@ -60,6 +61,7 @@ class Menu extends Component {
 			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#drinks"> Drinks </a> 
 			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#sweet"> Sweet Dishes </a> 
 			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#thali"> Thali </a> 
+			 </div>
 			 </div>
 			 <br/>
 			 <br/>
@@ -69,8 +71,8 @@ class Menu extends Component {
 			</div>
 			<br/>
 			<div class="center">
-			<a className="btn-flat black-text" href="tel:60169560954" target="_blank"><i class="small material-icons left">phone</i>60169560954</a>
-			 </div>
+			<a class="btn waves-effect black-text waves-light cyan lighten-2" href="tel:60169560954" target="_blank"><i class="material-icons left">phone</i>+6016-9560954</a>			
+		 </div>
 			 
 <br/>
 				<br/><br/>
