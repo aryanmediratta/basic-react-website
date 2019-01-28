@@ -53,25 +53,25 @@ class Menu extends Component {
 			<h2 style = {h2s}> Our Menu </h2>
 			
 			</div>
-						<div className = 'container'>
+			<div className = 'container'>
 			<div class="center">
-			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#starters"> Starters </a> 
-			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#breads"> Breads </a>
-			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#mains"> Main Course </a> 
-			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#drinks"> Drinks </a> 
-			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#sweet"> Sweet Dishes </a> 
-			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "#thali"> Thali </a> 
+			 <a className="black-text waves-effect waves-light btn white" href = "#starters"> Starters </a> 
+			 <a className="black-text waves-effect waves-light btn white" href = "#breads"> Breads </a>
+			 <a className="black-text waves-effect waves-light btn white" href = "#mains"> Main Course </a> 
+			 <a className="black-text waves-effect waves-light btn white" href = "#drinks"> Drinks </a> 
+			 <a className="black-text waves-effect waves-light btn white" href = "#sweet"> Sweet Dishes </a> 
+			 <a className="black-text waves-effect waves-light btn white" href = "#thali"> Thali </a> 
 			 </div>
 			 </div>
 			 <br/>
 			 <br/>
 
 			<div class="center">
-			 <a className="black-text waves-effect waves-light btn cyan lighten-2" href = "https://www.foodpanda.my/restaurant/m7ah/delhi-grill-brickfield" target = "_blank" rel="noopener noreferrer">Order From Us on Foodpanda! </a>
+			 <a className="black-text waves-effect waves-light btn white" href = "https://www.foodpanda.my/restaurant/m7ah/delhi-grill-brickfield" target = "_blank" rel="noopener noreferrer">Order From Us on Foodpanda! </a>
 			</div>
 			<br/>
 			<div class="center">
-			<a class="btn waves-effect black-text waves-light cyan lighten-2" href="tel:60169560954" target="_blank"><i class="material-icons left">phone</i>+6016-9560954</a>			
+			<a class="btn waves-effect black-text waves-light white" href="tel:60169560954" target="_blank"><i class="material-icons left">phone</i>+6016-9560954</a>			
 		 </div>
 			 
 <br/>

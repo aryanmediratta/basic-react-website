@@ -31,20 +31,20 @@ class Contact extends Component {
 			<br/>		
 			<div className = "row">
 			<div className = "col s6 m6 l6">
-			<a class="btn waves-effect black-text waves-light cyan lighten-2" href="tel:60169560954" target="_blank"><i class="material-icons left">phone</i>+6016-9560954</a>			</div>
+			<a class="btn waves-effect black-text waves-light white" href="tel:60169560954" target="_blank"><i class="material-icons left">phone</i>+6016-9560954</a>			</div>
 			<div className = "col s6 m6 l6">
-			<a className="waves-effect waves-light btn black-text text-lighten-4 cyan lighten-2" href="https://api.whatsapp.com/send?phone=60169560954" target="_blank" rel="noopener noreferrer" style = {{fontSize : '1em'}}><i class="small material-icons left">message</i>WhatsApp</a>
+			<a className="waves-effect waves-light btn black-text text-lighten-4 white" href="https://api.whatsapp.com/send?phone=60169560954" target="_blank" rel="noopener noreferrer" style = {{fontSize : '1em'}}><i class="small material-icons left">message</i>WhatsApp</a>
 			</div>
 			</div>
 			<div className = "row">
 			<div className = "col s12 m6 l6">
-			<a className="waves-effect waves-light btn black-text text-lighten-4 cyan lighten-2" href="mailto:info@delhigrillkl.com" target="_blank" rel="noopener noreferrer"><i class="material-icons left" style = {{fontSize : '1.5em'}}>email</i>info@delhigrillkl.com</a>
+			<a className="waves-effect waves-light btn black-text text-lighten-4 white" href="mailto:info@delhigrillkl.com" target="_blank" rel="noopener noreferrer"><i class="material-icons left" style = {{fontSize : '1.5em'}}>email</i>info@delhigrillkl.com</a>
 			</div>
 			<div className = "col s12 m6 l6">
 			<div class = "hide-on-med-and-up">
 			<br/>
 			</div>
-			<a className="waves-effect waves-light btn black-text text-lighten-4 cyan lighten-2" href = "https://www.foodpanda.my/restaurant/m7ah/delhi-grill-brickfield" target = "_blank" rel="noopener noreferrer" style = {{fontSize : '1em'}}>Order From Us on Foodpanda! </a>
+			<a className="waves-effect waves-light btn black-text text-lighten-4 white" href = "https://www.foodpanda.my/restaurant/m7ah/delhi-grill-brickfield" target = "_blank" rel="noopener noreferrer" style = {{fontSize : '1em'}}>Order From Us on Foodpanda! </a>
 			</div>
 			</div>
 			<Footer />
