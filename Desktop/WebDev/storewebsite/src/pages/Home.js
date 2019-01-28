@@ -27,7 +27,7 @@ const ps = {
 	color : 'black',
   textAlign : 'center',
   fontFamily : 'Open Sans',
-  fontSize : '20px'
+  fontSize : '16px'
 }
 
 const imgS = {
@@ -54,8 +54,10 @@ class Home extends Component {
 
     document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems, {fullWidth : 'true', indicators: 'true'});
+    var instances = M.Carousel.init(elems, {indicators: 'true'});
   });
+
+    M.AutoInit();
 
 	}
 
@@ -72,10 +74,11 @@ class Home extends Component {
 
 				<div className = "container">
 				
-				<p style = {ps}>The traditional food of India has been widely appreciated for its fabulous use of herbs and spices. Indian cuisine is known for its large assortment of dishes. The cooking style varies from region to region and is largely divided into North Indian cuisine & South Indian  . At Delhi Grill we serve fresh, tasty and spicy Indian food prepared using fresh herbs, garam masalas which are roasted and made in-house combined with rich flavors from ginger and garlic. Mix of South Indian, North Indian & West Indian cuisine.</p>
+				<p class="flow-text" style = {ps}>The traditional food of India has been widely appreciated for its fabulous use of herbs and spices. Indian cuisine is known for its large assortment of dishes. The cooking style varies from region to region and is largely divided into North Indian cuisine & South Indian  . At Delhi Grill we serve fresh, tasty and spicy Indian food prepared using fresh herbs, garam masalas which are roasted and made in-house combined with rich flavors from ginger and garlic. Mix of South Indian, North Indian & West Indian cuisine.</p>
 
 				</div>
 
+        <div class = "hide-on-small-only">
 				<h2 style = {h2s}>Our Specialities </h2>
         <div className = "row">
         <div className = "col s12 m2 l2"></div>
@@ -136,20 +139,19 @@ class Home extends Component {
   </div>
 </div>
 </div>
-
-        <h2 style = {h2s}>Our Specialities </h2>
-
-
-<div class="container">
-
-<div class="carousel carousel-slider">
-    <a class="carousel-item" href="#one!"><img src = {kebab} /></a>
-    <a class="carousel-item" href="#two!"><img src = {chinese} /></a>
-    <a class="carousel-item" href="#three!"><img src = {rice} /></a>
-    <a class="carousel-item" href="#four!"><img src = {laddoo} /></a>
-  </div>
 </div>
 
+
+  <div class = "hide-on-med-and-up">
+        <h2 style = {h2s}>Our Specialities </h2>
+
+<div class="carousel">
+    <a class="carousel-item" ><img src = {kebab} /></a>
+    <a class="carousel-item" ><img src = {chinese} /></a>
+      <a class="carousel-item" ><img src = {rice} /></a>
+   <a class="carousel-item" ><img src = {laddoo} /></a>
+  </div>
+</div>
   
 <br />
 <br/>

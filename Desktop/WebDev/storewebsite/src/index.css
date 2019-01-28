@@ -19,7 +19,7 @@ img {
 }
 p {
   font-family: Open Sans;
-  font-size: 18px;
+  font-size: 16px;
 }
 body {
     display: flex;
@@ -32,5 +32,5 @@ body {
   }
 table td{
   font-family: Open Sans;
-  font-size: 16px;
+  font-size: 14px;
 }
