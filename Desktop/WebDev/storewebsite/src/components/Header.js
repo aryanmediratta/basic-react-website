@@ -2,11 +2,6 @@ import React, {Component, Fragment} from 'react';
 
 import M from 'materialize-css/dist/js/materialize.min.js';
 
-const As = {
-  color:'cyan', 
-  fontFamily : 'Open Sans', 
-  fontSize : '15px'
-}
 //        <li><a href="/about" className="cyan-text text-lighten-4">About Us</a></li>
 //        <li><a href="/about">About Us</a></li>
 
