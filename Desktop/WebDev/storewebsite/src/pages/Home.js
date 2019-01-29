@@ -54,7 +54,7 @@ class Home extends Component {
 
     document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems, {indicators: 'true'});
+    var instances = M.Carousel.init(elems, {dist : '-225'});
   });
 
     M.AutoInit();
@@ -65,8 +65,9 @@ class Home extends Component {
 		return(	
 			<div>
 				<Header/>
-				<h2 style ={h2s}>Delhi Grill</h2>
-
+        <br/>
+        <br/>
+        <br/>
 
 <img src={allmenu}  className="img-responsive" alt = "menu"/>
       <br />
@@ -74,7 +75,9 @@ class Home extends Component {
 
 				<div className = "container">
 				
-				<p class="flow-text" style = {ps}>The traditional food of India has been widely appreciated for its fabulous use of herbs and spices. Indian cuisine is known for its large assortment of dishes. The cooking style varies from region to region and is largely divided into North Indian cuisine & South Indian  . At Delhi Grill we serve fresh, tasty and spicy Indian food prepared using fresh herbs, garam masalas which are roasted and made in-house combined with rich flavors from ginger and garlic. Mix of South Indian, North Indian & West Indian cuisine.</p>
+				<p class="flow-text" style = {ps}>The bustling streets and bazaars of Delhi are home to a concoction of traditions, community and food. At Delhi Grill we bring this beautiful festival of three under one roof. At Delhi Grill you will experience the richness of multi- cuisine food ranging from street food like Pani Puri which are little balls stuffed with the spicy aloo and dunked in tamarind water to Chicken & Mutton Biryani made from the recipes of Awadi Khatshamas (cooks) to finishing off your meal with Kulfi Faluda another popular street food dessert made with rich creamy milk, dry fruits and vermicelli.
+
+Come and join us in this food journey and we will take you to a ride, through India’s rich food cultural experience.</p>
 
 				</div>
 
@@ -129,7 +132,7 @@ class Home extends Component {
         </div>
       </li>
       <li>
-        <img src={laddoo} alt = "menu"/> 
+        <img src={laddoo} alt = "menu" /> 
         <div class="caption center-align">
           <h3>Foooood</h3>
           <h5 >Some stuff about it.</h5>
@@ -146,10 +149,35 @@ class Home extends Component {
         <h2 style = {h2s}>Our Specialities </h2>
 
 <div class="carousel">
-    <a class="carousel-item" ><img src = {kebab} /></a>
-    <a class="carousel-item" ><img src = {chinese} /></a>
-      <a class="carousel-item" ><img src = {rice} /></a>
-   <a class="carousel-item" ><img src = {laddoo} /></a>
+    <a class="carousel-item" ><img src = {kebab} /><div class="caption center-align">
+          <h3>Food</h3>
+          <h5 >Some stuff about it.</h5>
+        </div></a>
+    <a class="carousel-item" ><img src = {chinese} /><div class="caption center-align">
+          <h3>Food</h3>
+          <h5 >Some stuff about it.</h5>
+        </div>
+        </a>
+      <a class="carousel-item" ><img src = {rice} /><div class="caption center-align">
+          <h3>Food</h3>
+          <h5 >Some stuff about it.</h5>
+        </div></a>
+   <a class="carousel-item" ><img src = {laddoo} /><div class="caption center-align">
+          <h3>Food</h3>
+          <h5 >Some stuff about it.</h5>
+        </div></a>
+       <a class="carousel-item" ><img src = {kulfi} /><div class="caption center-align">
+          <h3>Food</h3>
+          <h5 >Some stuff about it.</h5>
+        </div></a>
+    <a class="carousel-item" ><img src = {dish} /><div class="caption center-align">
+          <h3>Food</h3>
+          <h5 >Some stuff about it.</h5>
+        </div></a>
+    <a class="carousel-item" ><img src = {golgappa} /><div class="caption center-align">
+          <h3>Food</h3>
+          <h5 >Some stuff about it.</h5>
+        </div></a>
   </div>
 </div>
   
