@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-import logo1 from '../images/logofinalfinal.jpg';
+import logo1 from '../images/logo.jpg';
 
 import M from 'materialize-css/dist/js/materialize.min.js';
 

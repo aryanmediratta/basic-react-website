@@ -14,6 +14,8 @@ import kebab from '../images/kebab.jpeg';
 import golgappa from '../images/golgappa.jpeg';
 import dish from '../images/dish.jpeg';
 
+import video from '../images/video1.mp4';
+
 import M from 'materialize-css/dist/js/materialize.min.js';
 
 const h2s = {
@@ -74,7 +76,11 @@ class Home extends Component {
 
 Come and join us in this food journey and we will take you to a ride, through India’s rich food cultural experience.</p>
 
-				</div>
+        <video class="responsive-video" controls>
+        <source src={video} type="video/mp4"/>
+        </video>
+
+        </div>
 
         <div class = "hide-on-small-only">
 				<h2 style = {h2s}>Our Specialities </h2>
