@@ -24,20 +24,20 @@ document.addEventListener('DOMContentLoaded', function() {
 			
 			<Fragment>
 			 <nav>
-    <div className="nav-wrapper blue-grey darken-3" >
-      <a href="/" className="brand-logo cyan-text text-lighten-4 left">
-      <img src = {logo1} alt = "Logo!" class="responsive-img"/>
-      </a>
-      <a href="#" data-target="mobile-demo" className="right sidenav-trigger cyan-text text-lighten-4" ><i className="material-icons">menu</i></a>
-      <ul className="right hide-on-med-and-down" >
-        <li><a href="/menu" className="cyan-text text-lighten-4">Menu</a></li>
-        <li><a href="/contact" className="cyan-text text-lighten-4">Contact Us</a></li>
-      </ul>
-    </div>
-  </nav>
+          <div className="nav-wrapper blue-grey darken-3" >
+            <a href="/" className="brand-logo cyan-text text-lighten-4 left">
+              <img src = {logo1} alt = "Logo!" class="responsive-img"/>
+            </a>
+            <a href="#" data-target="mobile-demo" className="right sidenav-trigger cyan-text text-lighten-4" ><i className="material-icons">menu</i></a>
+            <ul className="right hide-on-med-and-down" >
+              <li><a href="/menu" className="cyan-text text-lighten-4">Menu</a></li>
+              <li><a href="/contact" className="cyan-text text-lighten-4">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
 
   <ul className = "sidenav" id="mobile-demo">
-    <li><a href = "/">Home</a></li>
+        <li><a href = "/">Home</a></li>
         <li><a href = "/menu">Menu</a></li>
         <li><a href = "/contact">Contact Us</a></li>
   </ul>
