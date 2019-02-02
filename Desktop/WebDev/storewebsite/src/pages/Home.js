@@ -13,7 +13,6 @@ import kulfi from '../images/kulfi.jpeg';
 import kebab from '../images/kebab.jpeg';
 import golgappa from '../images/golgappa.jpeg';
 import dish from '../images/dish.jpeg';
-import delhigrill from '../images/delhigrill.jpeg';
 
 import M from 'materialize-css/dist/js/materialize.min.js';
 
@@ -28,17 +27,6 @@ const ps = {
   textAlign : 'center',
   fontFamily : 'Open Sans',
   fontSize : '16px'
-}
-
-const imgS = {
-  width : '100%'
-}
-
-const bgs = {
-  height: '50%' ,
-  backgroundPosition: 'center',
-  backgroundRepeat: 'no-repeat',
-  backgroundSize: 'cover',
 }
 
 class Home extends Component {
@@ -156,32 +144,32 @@ Come and join us in this food journey and we will take you to a ride, through In
         <h2 style = {h2s}>Our Specialities </h2>
 
 <div class="carousel">
-    <a class="carousel-item" ><img src = {kebab} /><div class="caption center-align">
+    <a class="carousel-item" ><img src = {kebab} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div></a>
-    <a class="carousel-item" ><img src = {chinese} /><div class="caption center-align">
+    <a class="carousel-item" ><img src = {chinese} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div>
         </a>
-      <a class="carousel-item" ><img src = {rice} /><div class="caption center-align">
+      <a class="carousel-item" ><img src = {rice} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div></a>
-   <a class="carousel-item" ><img src = {laddoo} /><div class="caption center-align">
+   <a class="carousel-item" ><img src = {laddoo} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div></a>
-       <a class="carousel-item" ><img src = {kulfi} /><div class="caption center-align">
+       <a class="carousel-item" ><img src = {kulfi} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div></a>
-    <a class="carousel-item" ><img src = {dish} /><div class="caption center-align">
+    <a class="carousel-item" ><img src = {dish} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div></a>
-    <a class="carousel-item" ><img src = {golgappa} /><div class="caption center-align">
+    <a class="carousel-item" ><img src = {golgappa} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div></a>

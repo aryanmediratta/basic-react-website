@@ -4,16 +4,7 @@ import Header from '../components/Header'
 
 import Footer from '../components/Footer'
 
-import menu2 from '../images/menu2.jpeg';
-import menu1 from '../images/menu1.jpeg';
-
 import M from 'materialize-css/dist/js/materialize.min.js';
-
-
-const stylo = {
-	width : '100%',
-	height : '50%',
-}
 
 const h2s = {
 	textAlign : 'center',
