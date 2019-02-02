@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			 <nav>
     <div className="nav-wrapper blue-grey darken-3" >
       <a href="/" className="brand-logo cyan-text text-lighten-4 left">
-      <img src = {logo1} class="responsive-img"/>
+      <img src = {logo1} alt = "Logo!" class="responsive-img"/>
       </a>
       <a href="#" data-target="mobile-demo" className="right sidenav-trigger cyan-text text-lighten-4" ><i className="material-icons">menu</i></a>
       <ul className="right hide-on-med-and-down" >

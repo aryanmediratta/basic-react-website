@@ -24,7 +24,7 @@ const h2s = {
 const ths = {
 	fontFamily : 'Open Sans',
 	fontWeight : 'bold',
-	fontSize : '18px'
+	fontSize : '17px'
 }
 
 

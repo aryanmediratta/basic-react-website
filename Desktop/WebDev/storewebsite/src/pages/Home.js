@@ -34,6 +34,13 @@ const imgS = {
   width : '100%'
 }
 
+const bgs = {
+  height: '50%' ,
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
+}
+
 class Home extends Component {
 
 	componentDidMount(){
@@ -69,7 +76,7 @@ class Home extends Component {
         <br/>
         <br/>
 
-<img src={allmenu}  className="img-responsive" alt = "menu"/>
+<img src={allmenu} alt = "menu" className="img-responsive"/>
       <br />
       <br />
 
