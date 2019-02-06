@@ -74,11 +74,7 @@ class Home extends Component {
 				
 				<p class="flow-text" style = {ps}>The bustling streets and bazaars of Delhi are home to a concoction of traditions, community and food. At Delhi Grill we bring this beautiful festival of three under one roof. At Delhi Grill you will experience the richness of multi- cuisine food ranging from street food like Pani Puri which are little balls stuffed with the spicy aloo and dunked in tamarind water to Chicken & Mutton Biryani made from the recipes of Awadi Khatshamas (cooks) to finishing off your meal with Kulfi Faluda another popular street food dessert made with rich creamy milk, dry fruits and vermicelli.
 
-Come and join us in this food journey and we will take you to a ride, through India’s rich food cultural experience.</p>
-
-        <video class="responsive-video" controls>
-        <source src={video} type="video/mp4"/>
-        </video>
+  Come and join us in this food journey and we will take you to a ride, through India’s rich food cultural experience.</p>
 
         </div>
 
