@@ -145,12 +145,12 @@ class Home extends Component {
   <div class = "hide-on-med-and-up">
         <h2 style = {h2s}>Our Specialities </h2>
 
-<div class="carousel">
-    <a class="carousel-item" ><img src = {kebab} alt = "food" /><div class="caption center-align">
+<div class="carousel blue-grey lighten-4">
+    <a class="carousel-item" ><img src = {golgappa} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div></a>
-    <a class="carousel-item" ><img src = {chinese} alt = "food" /><div class="caption center-align">
+    <a class="carousel-item" ><img src = {kebab} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div>
@@ -159,19 +159,19 @@ class Home extends Component {
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div></a>
-   <a class="carousel-item" ><img src = {laddoo} alt = "food" /><div class="caption center-align">
+   <a class="carousel-item" ><img src = {paneer} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div></a>
-       <a class="carousel-item" ><img src = {kulfi} alt = "food" /><div class="caption center-align">
+       <a class="carousel-item" ><img src = {dish} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div></a>
-    <a class="carousel-item" ><img src = {dish} alt = "food" /><div class="caption center-align">
+    <a class="carousel-item" ><img src = {kulfi} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div></a>
-    <a class="carousel-item" ><img src = {golgappa} alt = "food" /><div class="caption center-align">
+    <a class="carousel-item" ><img src = {laddoo} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div></a>
