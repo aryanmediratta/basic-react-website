@@ -54,7 +54,7 @@ class Home extends Component {
 
     document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems, {dist : '-225'});
+    var instances = M.Carousel.init(elems, {dist : '-225', fullWidth: true});
   });
 
     M.AutoInit();
@@ -126,7 +126,7 @@ class Home extends Component {
         <p class="flow-text" style = {ps}>The bustling streets and bazaars of Delhi are home to a concoction of traditions, community and food. At Delhi Grill we bring this beautiful festival of three under one roof. At Delhi Grill you will experience the richness of multi- cuisine food ranging from street food like Pani Puri which are little balls stuffed with the spicy aloo and dunked in tamarind water to Chicken & Mutton Biryani made from the recipes of Awadi Khatshamas (cooks) to finishing off your meal with Kulfi Faluda another popular street food dessert made with rich creamy milk, dry fruits and vermicelli.
 
   Come and join us in this food journey and we will take you to a ride, through India’s rich food cultural experience.</p>
-        <h2 style = {h2s}>Our Specialities </h2>
+        <h2 style = {h2s}>Our Delicacies </h2>
         <div className = "row">
         <div className = "col s12 m2 l2"></div>
         <div className = "col s12 m8 l8">
@@ -170,8 +170,8 @@ class Home extends Component {
   <div class = "hide-on-med-and-up">
         <h2 style = {h2s}>Our Specialities </h2>
 
-<div class="carousel">
-       <a class="carousel-item" ><img src = {dish} alt = "food" /><div class="caption center-align">
+<div class="carousel carousel-slider">
+       <a class="carousel-item" ><img src = {golgappa} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div></a>
@@ -180,6 +180,10 @@ class Home extends Component {
           <h5 >Some stuff about it.</h5>
         </div></a>
     <a class="carousel-item" ><img src = {laddoo} alt = "food" /><div class="caption center-align">
+          <h3>Food</h3>
+          <h5 >Some stuff about it.</h5>
+        </div></a>
+    <a class="carousel-item" ><img src = {kebab} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div></a>
@@ -194,9 +198,9 @@ class Home extends Component {
 <p class="flow-text" style = {ps}>The bustling streets and bazaars of Delhi are home to a concoction of traditions, community and food. At Delhi Grill we bring this beautiful festival of three under one roof. At Delhi Grill you will experience the richness of multi- cuisine food ranging from street food like Pani Puri which are little balls stuffed with the spicy aloo and dunked in tamarind water to Chicken & Mutton Biryani made from the recipes of Awadi Khatshamas (cooks) to finishing off your meal with Kulfi Faluda another popular street food dessert made with rich creamy milk, dry fruits and vermicelli.
 
   Come and join us in this food journey and we will take you to a ride, through India’s rich food cultural experience.</p>
-        <h2 style = {h2s}>Our Specialities </h2>
+        <h2 style = {h2s}>Our Delicacies </h2>
 
-<div class="carousel">
+<div class="carousel carousel-slider">
     <a class="carousel-item" ><img src = {golgappa} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
@@ -217,6 +221,9 @@ class Home extends Component {
 </div>
 </div>
 </div>
+
+
+
   			<Footer />
 			</div>	
 			);
