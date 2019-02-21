@@ -8,12 +8,10 @@ import M from 'materialize-css/dist/js/materialize.min.js';
 
 const h2s = {
 	textAlign : 'center',
-	fontFamily : 'Open Sans',
 	fontWeight : 'bold'
 }
 
 const ths = {
-	fontFamily : 'Open Sans',
 	fontWeight : 'bold',
 	fontSize : '17px'
 }

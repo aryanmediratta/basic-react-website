@@ -14,21 +14,24 @@ import kebab from '../images/kebab.jpeg';
 import golgappa from '../images/golgappa.jpeg';
 import dish from '../images/dish.jpeg';
 
-import video from '../images/video1.mp4';
+import para from '../images/para.jpeg';
 
 import M from 'materialize-css/dist/js/materialize.min.js';
 
 const h2s = {
 	textAlign : 'center',
-	fontFamily : 'Open Sans',
+  fontWeight : 'bold'
+}
+
+const h1s = {
+  textAlign : 'center',
   fontWeight : 'bold'
 }
 
 const ps = {
 	color : 'black',
-  textAlign : 'center',
-  fontFamily : 'Open Sans',
-  fontSize : '16px'
+  textAlign : 'center', 
+  fontSize : '18px'
 }
 
 class Home extends Component {
@@ -64,13 +67,17 @@ class Home extends Component {
 				<Header/>
         <br/>
         <br/>
-        <br/>
 
-<img src={allmenu} alt = "menu" className="img-responsive"/>
+        <img src={para} alt = "menu" className = "responsive-img"/>
+        
+
+        <h1 style = {h1s}> Delhi Grill - Authentic Indian Cuisine </h1>
+
       <br />
       <br />
 
-				<div className = "container">
+                        <div>
+
 				
 				<p class="flow-text" style = {ps}>The bustling streets and bazaars of Delhi are home to a concoction of traditions, community and food. At Delhi Grill we bring this beautiful festival of three under one roof. At Delhi Grill you will experience the richness of multi- cuisine food ranging from street food like Pani Puri which are little balls stuffed with the spicy aloo and dunked in tamarind water to Chicken & Mutton Biryani made from the recipes of Awadi Khatshamas (cooks) to finishing off your meal with Kulfi Faluda another popular street food dessert made with rich creamy milk, dry fruits and vermicelli.
 
@@ -85,6 +92,46 @@ class Home extends Component {
         <div className = "col s12 m8 l8">
         <div className = "col s12 m2 l2"></div>
 				 <div className = "slider">
+    <ul className = "slides">
+      <li>
+        <img src={dish} alt = "menu"/> 
+        <div class="caption center-align">
+          <h3>Foooood</h3>
+          <h5 >Some stuff about it.</h5>
+        </div>
+      </li>
+      <li>
+        <img src={kulfi} alt = "menu"/> 
+        <div class="caption center-align">
+          <h3>Foooood</h3>
+          <h5 >Some stuff about it.</h5>
+        </div>
+      </li>
+      <li>
+        <img src={laddoo} alt = "menu" /> 
+        <div class="caption center-align">
+          <h3>Foooood</h3>
+          <h5 >Some stuff about it.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class = "hide-on-small-only">
+
+        <p class="flow-text" style = {ps}>The bustling streets and bazaars of Delhi are home to a concoction of traditions, community and food. At Delhi Grill we bring this beautiful festival of three under one roof. At Delhi Grill you will experience the richness of multi- cuisine food ranging from street food like Pani Puri which are little balls stuffed with the spicy aloo and dunked in tamarind water to Chicken & Mutton Biryani made from the recipes of Awadi Khatshamas (cooks) to finishing off your meal with Kulfi Faluda another popular street food dessert made with rich creamy milk, dry fruits and vermicelli.
+
+  Come and join us in this food journey and we will take you to a ride, through India’s rich food cultural experience.</p>
+        <h2 style = {h2s}>Our Specialities </h2>
+        <div className = "row">
+        <div className = "col s12 m2 l2"></div>
+        <div className = "col s12 m8 l8">
+        <div className = "col s12 m2 l2"></div>
+         <div className = "slider">
     <ul className = "slides">
       <li>
         <img src={golgappa} alt = "menu"/> 
@@ -114,38 +161,42 @@ class Home extends Component {
           <h5 >Some stuff about it.</h5>
         </div>
       </li>
-      <li>
-        <img src={dish} alt = "menu"/> 
-        <div class="caption center-align">
-          <h3>Foooood</h3>
-          <h5 >Some stuff about it.</h5>
-        </div>
-      </li>
-      <li>
-        <img src={kulfi} alt = "menu"/> 
-        <div class="caption center-align">
-          <h3>Foooood</h3>
-          <h5 >Some stuff about it.</h5>
-        </div>
-      </li>
-      <li>
-        <img src={laddoo} alt = "menu" /> 
-        <div class="caption center-align">
-          <h3>Foooood</h3>
-          <h5 >Some stuff about it.</h5>
-        </div>
-      </li>
     </ul>
   </div>
 </div>
 </div>
 </div>
 
-
   <div class = "hide-on-med-and-up">
         <h2 style = {h2s}>Our Specialities </h2>
 
-<div class="carousel blue-grey lighten-4">
+<div class="carousel">
+       <a class="carousel-item" ><img src = {dish} alt = "food" /><div class="caption center-align">
+          <h3>Food</h3>
+          <h5 >Some stuff about it.</h5>
+        </div></a>
+    <a class="carousel-item" ><img src = {kulfi} alt = "food" /><div class="caption center-align">
+          <h3>Food</h3>
+          <h5 >Some stuff about it.</h5>
+        </div></a>
+    <a class="carousel-item" ><img src = {laddoo} alt = "food" /><div class="caption center-align">
+          <h3>Food</h3>
+          <h5 >Some stuff about it.</h5>
+        </div></a>
+  </div>
+
+  
+<br />
+<br/>
+
+
+<div class = "hide-on-med-and-up">
+<p class="flow-text" style = {ps}>The bustling streets and bazaars of Delhi are home to a concoction of traditions, community and food. At Delhi Grill we bring this beautiful festival of three under one roof. At Delhi Grill you will experience the richness of multi- cuisine food ranging from street food like Pani Puri which are little balls stuffed with the spicy aloo and dunked in tamarind water to Chicken & Mutton Biryani made from the recipes of Awadi Khatshamas (cooks) to finishing off your meal with Kulfi Faluda another popular street food dessert made with rich creamy milk, dry fruits and vermicelli.
+
+  Come and join us in this food journey and we will take you to a ride, through India’s rich food cultural experience.</p>
+        <h2 style = {h2s}>Our Specialities </h2>
+
+<div class="carousel">
     <a class="carousel-item" ><img src = {golgappa} alt = "food" /><div class="caption center-align">
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
@@ -163,25 +214,9 @@ class Home extends Component {
           <h3>Food</h3>
           <h5 >Some stuff about it.</h5>
         </div></a>
-       <a class="carousel-item" ><img src = {dish} alt = "food" /><div class="caption center-align">
-          <h3>Food</h3>
-          <h5 >Some stuff about it.</h5>
-        </div></a>
-    <a class="carousel-item" ><img src = {kulfi} alt = "food" /><div class="caption center-align">
-          <h3>Food</h3>
-          <h5 >Some stuff about it.</h5>
-        </div></a>
-    <a class="carousel-item" ><img src = {laddoo} alt = "food" /><div class="caption center-align">
-          <h3>Food</h3>
-          <h5 >Some stuff about it.</h5>
-        </div></a>
-  </div>
 </div>
-  
-<br />
-<br/>
-
-
+</div>
+</div>
   			<Footer />
 			</div>	
 			);

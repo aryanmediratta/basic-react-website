@@ -3,7 +3,11 @@ import logo1 from '../images/logo.jpg';
 
 import M from 'materialize-css/dist/js/materialize.min.js';
 
-//        <li><a href="/about" className="cyan-text text-lighten-4">About Us</a></li>
+const ps = { 
+  fontSize : '18px'
+}
+
+//        <li><a href="/about" className="cyan-text text-lighten-4" style = {ps}>About Us</a></li>
 //        <li><a href="/about">About Us</a></li>
 
 class Header extends Component {
@@ -30,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
             </a>
             <a href="#" data-target="mobile-demo" className="right sidenav-trigger cyan-text text-lighten-4" ><i className="material-icons">menu</i></a>
             <ul className="right hide-on-med-and-down" >
-              <li><a href="/menu" className="cyan-text text-lighten-4">Menu</a></li>
-              <li><a href="/contact" className="cyan-text text-lighten-4">Contact Us</a></li>
+              <li><a href="/menu" className="cyan-text text-lighten-4" style = {ps}>Menu</a></li>
+              <li><a href="/contact" className="cyan-text text-lighten-4" style = {ps}>Contact Us</a></li>
             </ul>
           </div>
         </nav>
