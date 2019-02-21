@@ -51,10 +51,10 @@ document.addEventListener('DOMContentLoaded', function() {
       <br/>
       <br/>
       <div className = "row">
-      <div className = "col s8 m2 l2">
+      <div className = "col s6 m2 l2">
       <a href="/" className="brand-logo cyan-text text-lighten-4 left" style = {ps}>Delhii Grill</a>
       </div>
-      <div className = "s4 m10 l10">
+      <div className = "col s5 m10 l10">
       <div className="right">
               <div className = "hide-on-small-only">
 
@@ -71,6 +71,8 @@ document.addEventListener('DOMContentLoaded', function() {
             </ul>
             </div>
       </div>
+            <div className = "col s1 m2 l2">
+              </div>
       </div>
       </div>
       </Fragment>
