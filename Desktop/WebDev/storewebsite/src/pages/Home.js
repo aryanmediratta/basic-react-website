@@ -173,7 +173,7 @@ class Home extends Component {
 <h2 style = {h2s}>Our Delicacies</h2>
   <div class="row">
     <div class="col-md-4">
-      <div class="thumbnail">
+      <div class="thumbnail hoverable">
         <a >
           <img src={dish} alt="Lights"/>
           <div class="caption">
@@ -183,7 +183,7 @@ class Home extends Component {
       </div>
     </div>
     <div class="col-md-4">
-      <div class="thumbnail">
+      <div class="thumbnail hoverable">
         <a >
           <img src={rice} alt="Nature"/>
           <div class="caption">
@@ -193,7 +193,7 @@ class Home extends Component {
       </div>
     </div>
     <div class="col-md-4">
-      <div class="thumbnail">
+      <div class="thumbnail hoverable">
         <a >
           <img src={chinese} alt="Fjords"/>
           <div class="caption">
