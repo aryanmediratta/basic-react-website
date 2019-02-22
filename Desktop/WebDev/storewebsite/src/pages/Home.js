@@ -17,6 +17,7 @@ import para from '../images/para.jpeg';
 import i1 from '../images/i1.jpeg';
 import i2 from '../images/i2.jpg';
 import i3 from '../images/i3.jpg';
+import i4 from '../images/i4.jpg';
 
 import M from 'materialize-css/dist/js/materialize.min.js';
 
@@ -70,6 +71,7 @@ class Home extends Component {
         <br/>
         <br/>
 
+
         
         <img src={para} alt = "menu" className = "responsive-img"/>
 
@@ -77,6 +79,8 @@ class Home extends Component {
 
       <br />
       <br />
+
+
 
                         <div>
 
@@ -166,7 +170,7 @@ class Home extends Component {
 
 
 <div class="parallax-container">
-      <div class="parallax"><img src = {i3} alt = "food" /></div>
+      <div class="parallax"><img src = {i2} alt = "food" /></div>
     </div>
 
 
@@ -205,8 +209,8 @@ class Home extends Component {
   </div>
 
 
-        <div class="parallax-container">
-      <div class="parallax"><img src = {i2} alt = "food" /></div>
+                  <div class="parallax-container">
+      <div class="parallax"><img src = {i4} alt = "food" /></div>
     </div>
 
 
