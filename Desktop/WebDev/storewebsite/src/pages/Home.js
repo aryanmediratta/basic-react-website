@@ -53,7 +53,7 @@ class Home extends Component {
 
     document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems, {dist : '-225', fullWidth: true});
+    var instances = M.Carousel.init(elems, {dist : '-225', fullWidth: true, 'indicators' : true});
   });
 
     M.AutoInit();
@@ -93,21 +93,18 @@ class Home extends Component {
         <img src={golgappa} alt = "menu"/> 
         <div class="caption center-align">
           <h3>Gol Gappa</h3>
-          <h5 >Some stuff about it.</h5>
         </div>
       </li>
       <li>
         <img src={kulfi} alt = "menu"/> 
         <div class="caption center-align">
           <h3>Kulfi</h3>
-          <h5 >Some stuff about it.</h5>
         </div>
       </li>
       <li>
         <img src={laddoo} alt = "menu" /> 
         <div class="caption center-align">
           <h3>Laddoo</h3>
-          <h5 >Some stuff about it.</h5>
         </div>
       </li>
     </ul>

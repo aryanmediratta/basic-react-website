@@ -34,7 +34,7 @@ class Footer extends Component {
                   <a className="cyan-text text-lighten-4" href="https://www.google.com/maps/place/Delhi+Grill/@2.9242317,101.6558502,18z/data=!4m12!1m6!3m5!1s0x31cdb6f998681337:0x7446ea8f1ed122ad!2sDelhi+Grill!8m2!3d2.9240978!4d101.6569419!3m4!1s0x31cdb6f998681337:0x7446ea8f1ed122ad!8m2!3d2.9240978!4d101.6569419" target="_blank" rel="noopener noreferrer">F-7, Block F, Jalan GC 3, Glomac, Cyber Jaya, Cyber 12, Cyber Jaya 63200, Sepang  Malaysia</a>
                   <br/>
                   <br/>
-                  <a className="btn-flat cyan-text text-lighten-4" href="tel:60169560954" target="_blank" rel="noopener noreferrer"><i class="material-icons left">phone</i>60169560954</a>
+                  <a className="btn-flat cyan-text text-lighten-4" href="tel:+6016-9560954" target="_blank" rel="noopener noreferrer"><i class="material-icons left">phone</i>60169560954</a>
                 </ul>
               </div>
             </div>

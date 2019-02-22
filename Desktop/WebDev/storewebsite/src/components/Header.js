@@ -7,9 +7,6 @@ const ps = {
   fontSize : '20px'
 }
 
-//        <li><a href="/about" className="cyan-text text-lighten-4" style = {ps}>About Us</a></li>
-//        <li><a href="/about">About Us</a></li>
-
 class Header extends Component {
 	
 componentDidMount(){
