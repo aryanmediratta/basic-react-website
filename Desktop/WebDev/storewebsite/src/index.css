@@ -18,20 +18,20 @@ img {
   margin-right: auto;
 }
 p {
-font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Times New Roman', cursive;
   font-size: 16px;
 }
 body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Times New Roman', cursive;
   }
 
   main {
     flex: 1 0 auto;
   }
 table td{
-font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Times New Roman', cursive;
   font-size: 14px;
 }

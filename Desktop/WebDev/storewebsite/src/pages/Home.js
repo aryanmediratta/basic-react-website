@@ -16,7 +16,7 @@ import dish from '../images/dish.jpeg';
 import para from '../images/para.jpeg';
 import i1 from '../images/i1.jpeg';
 import i2 from '../images/i2.jpg';
-import i3 from '../images/i3.jpg';
+import i3 from '../images/logo.jpg';
 import i4 from '../images/i4.jpg';
 
 import M from 'materialize-css/dist/js/materialize.min.js';
@@ -68,8 +68,7 @@ class Home extends Component {
 		return(	
 			<div>
 				<Header/>
-        <br/>
-        <br/>
+
 
 
         
@@ -84,8 +83,11 @@ class Home extends Component {
 
                         <div>
 
+                        <div className = "container">
+
 				
 				<p class="flow-text" style = {ps}>The bustling streets and bazaars of Delhi are home to a concoction of traditions, community and food. At Delhi Grill we bring this beautiful festival of three under one roof. At Delhi Grill you will experience the richness of multi- cuisine food ranging from street food like Pani Puri which are little balls stuffed with the spicy aloo and dunked in tamarind water.</p>
+        </div>
         </div>
 
                <div class="parallax-container">
@@ -127,8 +129,10 @@ class Home extends Component {
 
 <div class = "hide-on-small-only">
 
+<div className = "container">
+
 <p class="flow-text" style = {ps}>We also serve Chicken & Mutton Biryani made from the recipes of Awadi Khatshamas (cooks) to finishing off your meal with Kulfi Faluda another popular street food dessert made with rich creamy milk, dry fruits and vermicelli. Come and join us in this food journey and we will take you to a ride, through India’s rich food cultural experience.</p>
-       
+</div>
 
 
 </div>
